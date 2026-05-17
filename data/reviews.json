@@ -1,0 +1,109 @@
+[
+    {
+    "game": "Clair-Obscur",
+        "gamename": "Clair Obscur: Expedition 33",
+    "image": "/games/Clair-Obscur.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+        "steamAppId": 1903340,
+    "reviews": [
+      {
+        "youtuber": "Kiszak",
+        "image": "/youtubers/kiszak.png",
+        "videoLink": "https://www.youtube.com/watch?v=V1112ynIoyc",
+        "score": 10,
+        "cytat" : "Ta gra chwyciła mnie za serce i chuja jednocześnie"
+      },
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=Be8I5owojtA&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=19",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 10,
+       "cytat" : "...to prawdziwy diament, gra śmiem twierdzić perfekcyjna"
+      }
+    ]
+  },
+   {
+    "game": "Starfield",
+    "gamename": "Starfield",
+    "image": "/games/starfield.png",
+    "shortDesc": "Starfield to nowa gra od Bethesda Game Studios, która pozwala graczom eksplorować kosmos i budować swoją imperium.",
+    "shopLink": "https://store.steampowered.com/app/1716740/Starfield/",
+    "steamAppId": 1716740,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+        "image": "/youtubers/arkadikuss.png",
+        "videoLink": "https://www.youtube.com/watch?v=8Yl4d9E-lhM&t=133s",
+        "score": 5,
+        "cytat" : "glupoty i złe decyzje w projektowaniu gry, sprawiają, że czysto po prostu nie chciało mi się do niej wracać"
+      },
+       {
+        "youtuber": "Kiszak",
+        "image": "/youtubers/kiszak.png",
+        "videoLink": "https://www.youtube.com/watch?v=9bTmNvPzPGk",
+        "score": 4,
+        "cytat" : "Jeżeli miałbym go ocenic w perspektywie gry typu AAA ... to dałbym mu 0/10"
+      }
+    ]
+  },
+  {
+    "game": "cyberpunk-2077",
+        "gamename": "Cyberpunk 2077",
+    "image": "/games/cyberpunk.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+        "steamAppId": 1091500,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=abc123",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 9
+      }
+    ]
+  },
+  {
+    "game": "DEATH-STRANDING-2",
+        "gamename": "DEATH STRANDING 2: ON THE BEACH",
+    "image": "/games/DEATH-STRANDING-2.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+        "steamAppId": 3280350,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=aBiYT8V9okc&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=14",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : "Dla mnie Death stranding 2 to lepszy Death stranding"
+      }
+   
+    ]
+  },
+  
+  {
+    "game": "DRAGON-AGE-THE-VEILGUARD",
+    "gamename": "Dragon Age: The Veilguard",
+    "image": "/games/dragonageVEILGUARD.png",
+    "shortDesc": "Dragon Age: The Veilguard to gra akcji RPG z 2024 roku, opracowana przez BioWare i wydana przez Electronic Arts. Jest to czwarta główna gra z serii Dragon Age i kontynuacja Dragon Age: Inkwizycja.",
+    "shopLink": "https://https://store.steampowered.com/agecheck/app/1845910/",
+    "steamAppId": 1845910,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+        "image": "/youtubers/arkadikuss.png",
+        "videoLink": "https://www.youtube.com/watch?v=C1jEw9Kh4zg",
+        "score": 5,
+        "cytat" : "Ja grająć w Veilguarda cały czas, cały czas czułem ze ta gra jest idealnym przykładem gry średniej "
+      },
+       {
+        "youtuber": "Kiszak",
+        "image": "/youtubers/kiszak.png",
+        "videoLink": "https://www.youtube.com/watch?v=XT4-1VMgw0Y",
+        "score": 4,
+        "cytat" : "To nie przypomina pierwszego dragon age | to nie jest RPG to jest słuchajcie slasher"
+      }
+    ]
+  }
+]
