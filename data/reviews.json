@@ -1,4 +1,21 @@
 [
+        {
+    "game": "Avowed",
+        "gamename": "Avowed",
+    "image": "/games/Avowed.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/2457220/Avowed/",
+        "steamAppId": 2457220,
+    "reviews": [
+      {
+        "youtuber": "Kiszak",
+          "videoLink": "https://www.youtube.com/watch?v=xHplpKylKBI",
+        "image": "/youtubers/kiszak.png",
+        "score": 4,
+       "cytat" : "Ta gra jest upadkiem segmentu AAA"
+      }
+    ]
+  },
       {
     "game": "SILENT-HILL-f",
         "gamename": "SILENT HILL f",
