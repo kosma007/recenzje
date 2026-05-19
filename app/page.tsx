@@ -8,6 +8,7 @@ import Rodzic from "./components/home/rodzic";
 import RodzicOstatnieRecenzje from "./components/home/ostatnierecenzje";
 import MostHated from "./components/home/mosthated";
 import BestGames from "./components/home/bestgames";
+import Banner from "./components/home/banner";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,14 +39,14 @@ export default function RootLayout({
 
       </head>
 
-      <body className="min-h-full flex flex-col">
+      <div className="min-h-full max-w-6xl mx-auto flex flex-col">
    
-
+      <Banner />
        <Rodzic />
       <RodzicOstatnieRecenzje />
       <MostHated />
       <BestGames />
-      </body>
+      </div>
     </html>
   );
 }

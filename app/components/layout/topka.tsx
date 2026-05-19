@@ -26,8 +26,8 @@ export default function TopMenu() {
       <div className="max-w-6xl mx-auto flex items-center justify-between">
 
         {/* LOGO */}
-        <div className="text-xl font-bold">
-          <Link href="/">LudosRatings.pl</Link>
+        <div className="text-xl font-bold font-[Sora] tracking-[-0.3px] tracking-[-0.3px]">
+          <Link href="/" >Ludos<span className="text-blue-500">Ratings</span>.pl</Link>
         </div>
 
         {/* SEARCH (DESKTOP) */}
