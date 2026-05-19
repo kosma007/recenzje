@@ -16,8 +16,7 @@ export default function RodzicOstatnieRecenzje() {
         cytat: "cytat" in rev ? rev.cytat : undefined,
       }))
     )
-    .slice(-3) // 👈 ostatnie 3
-    .reverse(); // żeby najnowsze były pierwsze
+.slice(0, 3)
 
   return (
     <div className="max-w-6xl mx-auto p-6 text-white mt-10">

@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type SteamData = {
+  release_date: any;
   price: string;
   short_description: string;
   metacritic_score: number;
@@ -103,18 +104,16 @@ export default function Rodzic() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         {[...reviewsData]
-          .sort((a, b) => {
-            const avgA = a.reviews?.length
-              ? a.reviews.reduce((x, r) => x + r.score, 0) / a.reviews.length
-              : 0;
+    .sort((a, b) => {
+  const dateA = steamData[a.steamAppId]?.release_date;
+  const dateB = steamData[b.steamAppId]?.release_date;
 
-            const avgB = b.reviews?.length
-              ? b.reviews.reduce((x, r) => x + r.score, 0) / b.reviews.length
-              : 0;
+  const timeA = dateA ? new Date(dateA).getTime() : 0;
+  const timeB = dateB ? new Date(dateB).getTime() : 0;
 
-            return avgB - avgA;
-          })
-          .slice(0, 3)
+  return timeB - timeA; // najnowsze pierwsze
+})
+.slice(0, 3)
           .map((game) => {
             const steam = steamData[game.steamAppId] ?? null;
 

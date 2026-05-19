@@ -1,4 +1,55 @@
 [
+      {
+    "game": "SILENT-HILL-f",
+        "gamename": "SILENT HILL f",
+    "image": "/games/SILENT-HILL-f.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/2947440/SILENT_HILL_f/",
+        "steamAppId": 2947440,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=W28tz2ox0Ss&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=4",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 6,
+       "cytat" : "Jest okej ale jest miejsce żeby było lepiej"
+      }
+    ]
+  },
+    {
+    "game": "Resident-Evil-Requiem",
+        "gamename": "Resident Evil Requiem",
+    "image": "/games/Resident-Evil-Requiem.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/",
+        "steamAppId": 3764200,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=W28tz2ox0Ss&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=4",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : "Nie ma tutaj specjalnie na co narzekać..."
+      }
+    ]
+  },
+  {
+    "game": "pragmata",
+        "gamename": "Pragmata",
+    "image": "/games/Pragmata.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/3357650/PRAGMATA/",
+        "steamAppId": 3357650,
+    "reviews": [
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=4B-smrgZoYc&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 6,
+       "cytat" : "Nie żałuję, zakupu tej gry... ale jakoś nie potrafiłem przymknąć oka na wady jakie ta gra posiada"
+      }
+    ]
+  },
     {
     "game": "Clair-Obscur",
         "gamename": "Clair Obscur: Expedition 33",

@@ -222,7 +222,7 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
 
             {/* PLUSY */}
             <div className="flex gap-10 w-full lg:w-2/3">
-              <p className="text-gray-200 italic text-lg leading-relaxed max-lg:text-center max-lg:mt-5">
+              <p className="text-gray-200 italic text-lg leading-relaxed max-lg:text-center max-lg:mt-5 pr-5">
         “{rev.cytat}”
       </p>
 
