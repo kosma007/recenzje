@@ -3,8 +3,7 @@ export default function Regulamin() {
     <div className="max-w-4xl mx-auto p-6 text-white leading-relaxed">
 
       <h1 className="text-3xl font-bold mb-8">
-        📜 Regulamin serwisu GameRatings.pl
-      </h1>
+        📜 Regulamin serwisu LudosRatings.pl      </h1>
 
       <div className="space-y-8 text-gray-300">
 
@@ -15,7 +14,7 @@ export default function Regulamin() {
           </h2>
           <p>
             Niniejszy regulamin określa zasady korzystania z serwisu internetowego
-            GameRatings.pl, dostępnego pod adresem internetowym.
+            LudosRatings.pl, dostępnego pod adresem internetowym.
           </p>
           <p className="mt-2">
             Serwis ma charakter informacyjny i prezentuje recenzje gier oraz

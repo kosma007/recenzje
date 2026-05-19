@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             materiały zewnętrzne (np. YouTube, Steam).
           </p>
           <p className="mt-2">
-            Administratorem strony jest operator serwisu GameRatings.pl.
+            Administratorem strony jest operator serwisu LudosRatings.pl.
           </p>
         </section>
 

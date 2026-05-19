@@ -8,8 +8,7 @@ export default function Footer() {
         {/* LEFT */}
         <div>
           <h2 className="text-white text-xl font-bold mb-3">
-            GameRatings.pl
-          </h2>
+            LudosRatings.pl          </h2>
           <p className="text-sm text-gray-400">
             Platforma z recenzjami gier, ocenami youtuberów i danymi ze Steam.
           </p>
@@ -57,8 +56,7 @@ export default function Footer() {
           </p>
 
           <p className="text-xs text-gray-500 mt-4">
-            © {new Date().getFullYear()} GameRatings.pl
-          </p>
+            © {new Date().getFullYear()} LudosRatings.pl          </p>
         </div>
 
       </div>

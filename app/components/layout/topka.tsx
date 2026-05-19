@@ -27,16 +27,28 @@ export default function TopMenu() {
 
         {/* LOGO */}
         <div className="text-xl font-bold">
-          <Link href="/">GameRatings.pl</Link>
+          <Link href="/">LudosRatings.pl</Link>
         </div>
 
         {/* SEARCH (DESKTOP) */}
-        <div className="hidden md:block relative w-72">
+        <div className="hidden md:flex relative w-full">
+           <div className="text-md font-bold w-2/3 flex justify-center items-center">
+            <div className="text-md font-bold w-1/3 flex justify-start items-center">
+                      
+                      </div>
+                      <div className="text-md font-bold w-1/3 flex justify-start items-center">
+                      <Link href="/kontakt">Kontakt</Link>
+                      </div>
+                       <div className="text-md font-bold w-1/3 flex justify-start items-center">
+                      <Link href="/listing">Lista gier</Link>
+                      </div>
+        </div>
+        
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Szukaj gry..."
-            className="w-full px-3 py-2 rounded-md bg-zinc-800 text-white outline-none"
+            className="w-1/3 px-3 py-2 rounded-md bg-zinc-800 text-white outline-none"
           />
 
           {query && (
@@ -72,7 +84,12 @@ export default function TopMenu() {
       {/* MOBILE MENU */}
       {czyOtwarte && (
         <div className="md:hidden mt-4 flex flex-col gap-3">
-
+ <div className="text-md font-bold w-full flex justify-start items-center">
+         <Link href="/kontakt">Kontakt</Link>
+        </div>
+         <div className="text-md font-bold w-full flex justify-start items-center">
+          <Link href="/listing">Lista gier</Link>
+        </div>
           {/* SEARCH MOBILE */}
           <input
             value={query}
