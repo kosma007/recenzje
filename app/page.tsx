@@ -30,13 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <head>
 
-      </head>
+  
 
       <div className="min-h-full max-w-6xl mx-auto flex flex-col">
    
@@ -46,6 +41,6 @@ export default function RootLayout({
       <MostHated />
       <BestGames />
       </div>
-    </html>
+
   );
 }
