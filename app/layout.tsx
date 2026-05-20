@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "LudosRatings.pl",
-  description: "Platforma z recenzjami gier, ocenami youtuberów i danymi ze Steam.",
+  description: "Platforma z ocenami gier i danymi ze Steam.",
 };
 
 export default function RootLayout({

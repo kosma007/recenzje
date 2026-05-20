@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type SteamData = {
+  name: string;
   release_date: any;
   price: string;
   short_description: string;
@@ -29,6 +30,9 @@ function RatingRing({ value }: { value: number }) {
       ? "#facc15"
       : "#22c55e";
 
+
+
+      
   return (
     <svg height="48" width="48" className="absolute top-2 right-2">
       <circle
@@ -126,7 +130,8 @@ export default function Rodzic() {
               steam?.header_image?.startsWith("http")
                 ? steam.header_image
                 : game.image;
-
+            const name =
+              steam?.name || game.gamename;
             const desc =
               steam?.short_description || game.shortDesc || "Brak opisu";
 
@@ -153,7 +158,7 @@ export default function Rodzic() {
                 <div className="p-4">
 
                   <h2 className="text-xl font-bold">
-                    {game.gamename}
+                    {steam?.name || game.gamename}
                   </h2>
 
                   <p className="text-gray-400 text-sm mt-1 line-clamp-3">

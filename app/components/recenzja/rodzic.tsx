@@ -23,6 +23,7 @@ type Game = {
   shortDesc: string;
   shopLink: string;
   reviews: Review[];
+  header_image?: string;
 };
 
 export default function Rodzic({ gra }: { gra: string }) {
@@ -73,6 +74,9 @@ export default function Rodzic({ gra }: { gra: string }) {
    const [pc_minimum, setPc_minimum] = useState<number>(0);
    const [pc_recommended, setPc_recommended] = useState<number>(0);
 const [screenshots, setScreenshots] = useState<string[]>([]);
+const [header_image, setHeader_image] = useState<string[]>([]);
+const [name, setName] = useState<string[]>([]);
+     const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
   useEffect(() => {
     fetch(`/api/steam-price?appid=${game.steamAppId}`)
       .then(res => res.json())
@@ -84,10 +88,12 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
         setPc_minimum(data.pc_minimum);
         setPc_recommended(data.pc_recommended);
    setScreenshots(data.screenshots || []);
+   setHeader_image(data.header_image || []);
+   setName(data.name || []);
       });
   }, []);
 
-  
+
   const avgScore =
     game.reviews.reduce((acc, r) => acc + r.score, 0) /
     game.reviews.length;
@@ -98,17 +104,17 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
         <div className="w-full  lg:h-[300px] rounded-lg lg:flex">
             <div className="w-full lg:w-1/4 relative h-full flex justify-start max-lg:justify-center max-lg:items-center">
         <Image
-            src={game.image}
+            src={game.image || verticalCover}
           alt={game.game}
-            width={200}
-          height={200}
-          className="object-cover"
+            width={1200}
+          height={1200}
+          className="object-cover w-3/4 h-full px- rounded-lg"
         />
         </div>
         <div className="w-full lg:w-2/4 relative h-full flex items-start justify-start ">
         <div className="text-left max-lg:text-center max-lg:mt-5">
             <h1 className="text-4xl font-bold mb-2">
-        {game.gamename}
+        {name || game.gamename}
       </h1>
        <p className="text-lg text-gray-300"><span className="font-bold mb-5">{developers}</span></p> 
           <p className="text-lg text-gray-300">
@@ -213,7 +219,7 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
   target="_blank"
   className="inline-block mt-3 px-4 py-2 border border-red-500 hover:bg-red-700 transition rounded-lg text-white font-semibold"
 >
-  Zobacz recenzję
+  Zobacz wideo
 </Link>
   </div>
             </div>
@@ -223,7 +229,7 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
             {/* PLUSY */}
             <div className="flex gap-10 w-full lg:w-2/3">
               <p className="text-gray-200 italic text-lg leading-relaxed max-lg:text-center max-lg:mt-5 pr-5">
-        “{rev.cytat}”
+       {rev.cytat && `„${rev.cytat}”`}
       </p>
 
 </div>

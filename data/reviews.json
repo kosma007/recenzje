@@ -1,4 +1,89 @@
-[
+[   
+   {
+    "game": "Kingdom-Come-Deliverance-II",
+        "gamename": "",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1771300/Kingdom_Come_Deliverance_II/",
+        "steamAppId": 1771300,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=J4sOxScsqbA",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  },    
+    {
+    "game": "Assassins-Creed-Shadows",
+        "gamename": "Assassin’s Creed Shadows",
+    "image": "/games/assassins-creed-shadows.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/",
+        "steamAppId": 3159330,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=6h2lkQ_12Ao",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 4,
+       "cytat" : "Bawić sie przy niej można, jeśli ma sie niskie standardy"
+      }
+    ]
+  },    
+  {
+    "game": "Dziedzictwo-Hogwartu",
+        "gamename": "Dziedzictwo Hogwartu",
+    "image": "/games/hogwart.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/990080/Dziedzictwo_Hogwartu/",
+        "steamAppId": 990080,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=Ey1d6ATN2-g",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  },  
+  {
+    "game": "Cronos",
+        "gamename": "Cronos: The New Dawn",
+    "image": "/games/Cronos.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/2101960/Cronos_The_New_Dawn/",
+        "steamAppId": 2101960,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=mAUjvsfOIcc&t=108s",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : "Sam od siebie dałbym tej grze nawet 9"
+      }
+    ]
+  }, 
+   {
+    "game": "Diablo-IV",
+        "gamename": "Diablo IV",
+    "image": "/games/Diablo-IV.png",
+    "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
+    "shopLink": "https://store.steampowered.com/app/2344520/Diablo_IV/",
+        "steamAppId": 2344520,
+    "reviews": [
+      {
+        "youtuber": "Kiszak",
+          "videoLink": "youtube.com/watch?v=_dVqB4NS6m8&pp=ygUPa2lzemFrIHJlY2Vuemph",
+        "image": "/youtubers/kiszak.png",
+        "score": 4,
+       "cytat" : "Jest to typowy średniak dla niezaznajomego z grami casuala"
+      }
+    ]
+  },
         {
     "game": "Avowed",
         "gamename": "Avowed",
@@ -53,7 +138,7 @@
   {
     "game": "pragmata",
         "gamename": "Pragmata",
-    "image": "/games/Pragmata.png",
+    "image": "/games/pragmata.png",
     "shortDesc": "Futurystyczne RPG w otwartym świecie Night City.",
     "shopLink": "https://store.steampowered.com/app/3357650/PRAGMATA/",
         "steamAppId": 3357650,

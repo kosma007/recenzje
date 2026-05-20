@@ -1,28 +1,80 @@
 "use client";
 
 import reviewsData from "@/data/reviews.json";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+type SteamData = {
+  name: string;
+  short_description: string;
+  header_image: string;
+};
+
 export default function RodzicOstatnieRecenzje() {
-  // 🔥 spłaszczamy recenzje
+  const [steamData, setSteamData] = useState<Record<number, SteamData>>({});
+
+  useEffect(() => {
+    const fetchAll = async () => {
+      const results: Record<number, SteamData> = {};
+
+      for (const game of reviewsData) {
+        try {
+          const res = await fetch(
+            `/api/steam-price?appid=${game.steamAppId}`
+          );
+
+          const data = await res.json();
+          results[game.steamAppId] = data;
+        } catch {
+          console.log("Steam error:", game.steamAppId);
+        }
+      }
+
+      setSteamData(results);
+    };
+
+    fetchAll();
+  }, []);
+
   const latestReviews = reviewsData
     .flatMap((game) =>
-      game.reviews.map((rev) => ({
-        ...rev,
-        gameName: game.gamename,
-        gameSlug: game.game,
-        gameImage: game.image,
-        cytat: "cytat" in rev ? rev.cytat : undefined,
-      }))
+      game.reviews.map((rev) => {
+        const steam = steamData[game.steamAppId] ?? null;
+
+        const avg = game.reviews?.length
+          ? game.reviews.reduce((a, r) => a + r.score, 0) /
+            game.reviews.length
+          : 0;
+
+       const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
+
+const imgSrc = verticalCover;
+
+        const name =
+          steam?.name || game.gamename;
+
+        const desc =
+          steam?.short_description ||
+          game.shortDesc ||
+          "Brak opisu";
+
+        return {
+          ...rev,
+          gameName: name,
+          gameSlug: game.game,
+          gameImage: imgSrc,
+          gameDesc: desc,
+          avgScore: avg,
+        };
+      })
     )
-.slice(0, 3)
+    .slice(0, 3);
 
   return (
     <div className="max-w-6xl mx-auto p-6 text-white mt-10">
-
       <h2 className="text-2xl font-bold mb-6">
-        🎬 Ostatnie recenzje YouTuberów
+        🎬 Ostatnie oceny YouTuberów
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -40,7 +92,7 @@ export default function RodzicOstatnieRecenzje() {
                 src={rev.gameImage}
                 alt={rev.gameName}
                 width={40}
-                height={40}
+                height={60}
                 className="rounded-md object-cover"
               />
 
@@ -72,9 +124,14 @@ export default function RodzicOstatnieRecenzje() {
               /10
             </p>
 
+            {/* AVG */}
+            <p className="text-xs text-gray-500 mb-2">
+              Średnia: {rev.avgScore.toFixed(1)}
+            </p>
+
             {/* CYTAT */}
             <p className="text-gray-300 italic text-sm mb-3">
-              “{rev.cytat || "Brak cytatu"}”
+              {"cytat" in rev && rev.cytat ? `“${rev.cytat}”` : "Brak cytatu"}
             </p>
 
             {/* LINK */}
@@ -82,7 +139,7 @@ export default function RodzicOstatnieRecenzje() {
               href={`/recenzja/${rev.gameSlug}`}
               className="text-blue-500 text-sm hover:underline"
             >
-              Zobacz wszystkie recenzje →
+              Zobacz wszystkie oceny →
             </Link>
 
           </div>
