@@ -30,9 +30,6 @@ function RatingRing({ value }: { value: number }) {
       ? "#facc15"
       : "#22c55e";
 
-
-
-      
   return (
     <svg height="48" width="48" className="absolute top-2 right-2">
       <circle
@@ -79,24 +76,39 @@ export default function Rodzic() {
     const fetchAll = async () => {
       const results: Record<number, SteamData> = {};
 
-      for (const game of reviewsData) {
-        try {
-          const res = await fetch(
-            `/api/steam-price?appid=${game.steamAppId}`
-          );
+      await Promise.all(
+        reviewsData.map(async (game) => {
+          try {
+            const res = await fetch(
+              `/api/steam-price?appid=${game.steamAppId}`
+            );
 
-          const data = await res.json();
-          results[game.steamAppId] = data;
-        } catch (err) {
-          console.log("Steam error:", game.steamAppId);
-        }
-      }
+            const data = await res.json();
+            results[game.steamAppId] = data;
+          } catch (err) {
+            console.log("Steam error:", game.steamAppId);
+          }
+        })
+      );
 
       setSteamData(results);
     };
 
     fetchAll();
   }, []);
+
+  const sortedGames = [...reviewsData]
+    .map((game) => {
+      const steam = steamData[game.steamAppId];
+
+      const date = steam?.release_date
+        ? new Date(steam.release_date).getTime()
+        : 0;
+
+      return { ...game, _date: date };
+    })
+    .sort((a, b) => b._date - a._date)
+    .slice(0, 3);
 
   return (
     <div className="max-w-6xl mx-auto p-6 text-white">
@@ -107,81 +119,73 @@ export default function Rodzic() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        {[...reviewsData]
-    .sort((a, b) => {
-  const dateA = steamData[a.steamAppId]?.release_date;
-  const dateB = steamData[b.steamAppId]?.release_date;
+        {sortedGames.map((game) => {
+          const steam = steamData[game.steamAppId] ?? null;
 
-  const timeA = dateA ? new Date(dateA).getTime() : 0;
-  const timeB = dateB ? new Date(dateB).getTime() : 0;
+          const avg = game.reviews?.length
+            ? game.reviews.reduce(
+                (a, r) => a + r.score,
+                0
+              ) / game.reviews.length
+            : 0;
 
-  return timeB - timeA; // najnowsze pierwsze
-})
-.slice(0, 3)
-          .map((game) => {
-            const steam = steamData[game.steamAppId] ?? null;
+          const imgSrc =
+            steam?.header_image || game.image;
 
-            const avg = game.reviews?.length
-              ? game.reviews.reduce((a, r) => a + r.score, 0) /
-                game.reviews.length
-              : 0;
+          const name =
+            steam?.name || game.gamename;
 
-            const imgSrc =
-              steam?.header_image?.startsWith("http")
-                ? steam.header_image
-                : game.image;
-            const name =
-              steam?.name || game.gamename;
-            const desc =
-              steam?.short_description || game.shortDesc || "Brak opisu";
+          const desc =
+            steam?.short_description ||
+            game.shortDesc ||
+            "Brak opisu";
 
-            return (
-              <div
-                key={game.game}
-                className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition relative pb-10"
-              >
+          return (
+            <div
+              key={game.game}
+              className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition relative pb-10"
+            >
 
-                {/* IMAGE */}
-                <div className="relative w-full h-40">
-                  <Image
-                    src={imgSrc}
-                    alt={game.gamename}
-                    fill
-                    className="object-cover"
-                  />
+              {/* IMAGE */}
+              <div className="relative w-full h-40">
+                <Image
+                  src={imgSrc}
+                  alt={name}
+                  fill
+                  className="object-cover"
+                />
 
-                  {/* 🔥 RATING RING */}
-                  <RatingRing value={avg} />
-                </div>
-
-                {/* CONTENT */}
-                <div className="p-4">
-
-                  <h2 className="text-xl font-bold">
-                    {steam?.name || game.gamename}
-                  </h2>
-
-                  <p className="text-gray-400 text-sm mt-1 line-clamp-3">
-                    {desc}
-                  </p>
-
-                  <p className="mt-2 text-sm text-gray-300">
-                    💰 {steam?.price || "Ładowanie..."}
-                  </p>
-
-                  <div className="w-full absolute bottom-0 left-0 flex justify-center">
-                    <Link
-                      href={`/recenzja/${game.game}`}
-                      className="w-full text-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-sm font-semibold"
-                    >
-                      Zobacz recenzję
-                    </Link>
-                  </div>
-
-                </div>
+                <RatingRing value={avg} />
               </div>
-            );
-          })}
+
+              {/* CONTENT */}
+              <div className="p-4">
+
+                <h2 className="text-xl font-bold">
+                  {name}
+                </h2>
+
+                <p className="text-gray-400 text-sm mt-1 line-clamp-3">
+                  {desc}
+                </p>
+
+                <p className="mt-2 text-sm text-gray-300">
+                  💰 {steam?.price || "Ładowanie..."}
+                </p>
+
+                <div className="w-full absolute bottom-0 left-0 flex justify-center">
+                  <Link
+                    href={`/recenzja/${game.game}`}
+                    className="w-full text-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-sm font-semibold"
+                  >
+                    Zobacz recenzję
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+          );
+        })}
 
       </div>
     </div>

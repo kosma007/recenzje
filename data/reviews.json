@@ -77,10 +77,17 @@
     "reviews": [
       {
         "youtuber": "Kiszak",
-          "videoLink": "youtube.com/watch?v=_dVqB4NS6m8&pp=ygUPa2lzemFrIHJlY2Vuemph",
+          "videoLink": "https://www.youtube.com/watch?v=_dVqB4NS6m8&pp=ygUPa2lzemFrIHJlY2Vuemph",
         "image": "/youtubers/kiszak.png",
         "score": 4,
        "cytat" : "Jest to typowy średniak dla niezaznajomego z grami casuala"
+      },
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=tGM-O2trPhY",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   },
