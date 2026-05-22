@@ -77,6 +77,7 @@ const [screenshots, setScreenshots] = useState<string[]>([]);
 const [header_image, setHeader_image] = useState<string[]>([]);
 const [name, setName] = useState<string[]>([]);
      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
+     
   useEffect(() => {
     fetch(`/api/steam-price?appid=${game.steamAppId}`)
       .then(res => res.json())

@@ -43,6 +43,9 @@ export default function TopMenu() {
                       <Link href="/kontakt">Kontakt</Link>
                       </div>
                        <div className="text-md font-bold w-1/3 flex justify-start items-center">
+                      <Link href="/youtuberzy">Youtuberzy</Link>
+                      </div>
+                       <div className="text-md font-bold w-1/3 flex justify-start items-center">
                       <Link href="/listing">Lista gier</Link>
                       </div>
         </div>
@@ -89,6 +92,9 @@ export default function TopMenu() {
         <div className="md:hidden mt-4 flex flex-col gap-3">
  <div className="text-md font-bold w-full flex justify-start items-center">
          <Link href="/kontakt">Kontakt</Link>
+        </div>
+       <div className="text-md font-bold w-full flex justify-start items-center">
+         <Link href="/kontakt"></Link>
         </div>
          <div className="text-md font-bold w-full flex justify-start items-center">
           <Link href="/listing">Lista gier</Link>

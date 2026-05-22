@@ -1,4 +1,332 @@
-[   
+[     
+   {
+    "game": "Sekiro_Shadows_Die_Twice_GOTY_Edition",
+        "gamename": "Sekiro: Shadows Die Twice - GOTY Edition",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
+        "steamAppId":814380,
+    "reviews": [
+           {
+        "youtuber": "ZagrajnikTV",
+          "videoLink": "https://www.youtube.com/watch?v=rE6IN32epOU",
+        "image": "/youtubers/zagrajniktv.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+  },  
+    {
+    "game": "Elden_Ring",
+        "gamename": "Elden Ring",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+        "steamAppId":1245620,
+    "reviews": [
+           {
+        "youtuber": "ZagrajnikTV",
+          "videoLink": "https://www.youtube.com/watch?v=m7iNbXj4MsI",
+        "image": "/youtubers/zagrajniktv.png",
+        "score": 10,
+       "cytat" : ""
+      },
+         {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=ZAaualux5r0",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+  },  
+         {
+    "game": "Lies_of_P",
+        "gamename": "Lies of P",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1627720/Lies_of_P/",
+        "steamAppId":1627720,
+    "reviews": [
+           {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=OOZnWSvcpmQ",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+  },
+    
+     {
+    "game": "Fallout_4",
+        "gamename": "Fallout 4",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/377160/Fallout_4/",
+        "steamAppId":377160,
+    "reviews": [
+           {
+        "youtuber": "snakeiter",
+          "videoLink": "https://www.youtube.com/watch?v=aeVVZ5VEp10",
+        "image": "/youtubers/snakeiter.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+  },
+   {
+    "game": "Hollow_Knight_Silksong",
+        "gamename": "Hollow Knight: Silksong",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/",
+        "steamAppId":1030300,
+    "reviews": [
+           {
+        "youtuber": "snakeiter",
+          "videoLink": "https://www.youtube.com/watch?v=6FaDyarm7_g",
+        "image": "/youtubers/snakeiter.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  },
+     {
+    "game": "Stellar_Blade",
+        "gamename": "Stellar Blade",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/3489700/Stellar_Blade/",
+        "steamAppId":3489700,
+    "reviews": [
+           {
+        "youtuber": "Kiszak",
+          "videoLink": "https://www.youtube.com/watch?v=lR-6aoqer8s&t=2420s",
+        "image": "/youtubers/kiszak.png",
+        "score": 9.5,
+       "cytat" : ""
+      }
+    ]
+  },  
+     {
+    "game": "Lumencraft",
+        "gamename": "Lumencraft",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1713810/Lumencraft/",
+        "steamAppId":1713810,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=xLd_O_D9LUE",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  },  
+    {
+    "game": "Detroit-Become-Human",
+        "gamename": "Detroit: Become Human",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
+        "steamAppId":1222140,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=GL32cLh5ess",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+  },  
+    {
+    "game": "Half-Life-Alyx",
+        "gamename": "Half-Life Alyx",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/546560/HalfLife_Alyx/",
+        "steamAppId":546560,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=QPOBddGkP2o",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+  },
+     {
+    "game": "The_9th_Charnel",
+        "gamename": "The 9th Charnel",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2005690/The_9th_Charnel/",
+        "steamAppId":2005690,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=BWt5f7wZ_B0",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 3,
+       "cytat" : ""
+      }
+    ]
+  },
+        {
+    "game": "DOOM_The_Dark_Ages",
+        "gamename": "DOOM: The Dark Ages",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/3017860/DOOM_The_Dark_Ages/",
+        "steamAppId":3017860,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=v4IanV6_PA4",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
+      },
+         {
+        "youtuber": "snakeiter",
+          "videoLink": "https://www.youtube.com/watch?v=gQ4JJwPmTaA",
+        "image": "/youtubers/snakeiter.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+  },
+       {
+    "game": "Dead_Island_2",
+        "gamename": "Dead Island 2",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/934700/Dead_Island_2/",
+        "steamAppId":934700,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=DivWhrUDey8",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  },
+      {
+    "game": "HELLDIVERS-2",
+        "gamename": "HELLDIVERS 2",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/553850/HELLDIVERS_2/",
+        "steamAppId":553850,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=X4qrfg0Hvk4",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  }, 
+    {
+    "game": "Banishers-Ghosts-of-New-Eden",
+        "gamename": "Banishers: Ghosts of New Eden",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1493640/Banishers_Ghosts_of_New_Eden/",
+        "steamAppId": 1493640,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=ISZTNjfYhXk",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+  }, 
+  {
+    "game": "Devil_May_Cry_5",
+        "gamename": "Devil May Cry 5",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/601150/Devil_May_Cry_5/",
+        "steamAppId": 601150,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=2lDI_Hll2mY",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+  }, 
+   {
+    "game": "Returnal",
+        "gamename": "Returnal",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1649240/Returnal/",
+        "steamAppId": 1649240,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=UAZgSFst9tc",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+  }, 
+    {
+    "game": "Tainted-Grail-The-Fall-of-Avalon",
+        "gamename": "Tainted Grail: The Fall of Avalon",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1466060/Tainted_Grail_The_Fall_of_Avalon/",
+        "steamAppId": 1466060,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=O3PIbkR6gtU",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+  }, 
+   {
+    "game": "Baldur-Gate-3",
+        "gamename": "Baldur's Gate 3",
+     "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+        "steamAppId": 1086940,
+    "reviews": [
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=YAZs6QPqyQc",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 9.5,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Kiszak",
+          "videoLink": "https://www.youtube.com/watch?v=NWAi0YytIuc",
+        "image": "/youtubers/kiszak.png",
+        "score": 9.5,
+       "cytat" : ""
+      }
+    ]
+  },    
    {
     "game": "Kingdom-Come-Deliverance-II",
         "gamename": "",
@@ -47,6 +375,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : ""
+      },
+  {
+        "youtuber": "ZagrajnikTV",
+          "videoLink": "https://www.youtube.com/watch?v=QMqmdDk92qM",
+        "image": "/youtubers/zagrajniktv.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
   },  
@@ -64,6 +399,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : "Sam od siebie dałbym tej grze nawet 9"
+      },
+      {
+        "youtuber": "Estess",
+          "videoLink": "https://www.youtube.com/watch?v=cjKvfXz_Pf4",
+        "image": "/youtubers/estess.png",
+        "score": 6.5,
+       "cytat" : ""
       }
     ]
   }, 
@@ -105,6 +447,13 @@
         "image": "/youtubers/kiszak.png",
         "score": 4,
        "cytat" : "Ta gra jest upadkiem segmentu AAA"
+      },
+       {
+        "youtuber": "snakeiter",
+          "videoLink": "https://www.youtube.com/watch?v=Br0R64z1zdg&list=PLdhtJp-7FwFx2uugWwQiw3CPp-iOD2PEo",
+        "image": "/youtubers/snakeiter.png",
+        "score": 0,
+       "cytat" : ""
       }
     ]
   },
