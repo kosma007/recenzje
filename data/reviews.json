@@ -1,5 +1,55 @@
 [   
-
+      {
+    "game": "Kingdom_Come_Deliverance",
+        "gamename": "Kingdom Come: Deliverance",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/",
+        "steamAppId": 379430,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/gaAemGMkWjM?si=DOARbTz7522p1lBp",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+    {
+    "game": "God_of_War",
+        "gamename": "God of War",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1593500/God_of_War/",
+        "steamAppId": 1593500,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/5Av8t1abk_M?si=k_2x2X6en58CNE3b",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "RESIDENT_EVIL_2",
+        "gamename": "RESIDENT EVIL 2",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/883710/Resident_Evil_2/",
+        "steamAppId": 883710,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/itdqx6ONpy0?si=eJgbd6zoIRLLL8lf",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+    }, 
   {
     "game": "Ghostrunner_2",
         "gamename": "Ghostrunner 2",

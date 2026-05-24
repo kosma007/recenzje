@@ -29,7 +29,7 @@ export default function Rodzic() {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [allTags, setAllTags] = useState<string[]>([]);
   const [steamData, setSteamData] = useState<Record<number, SteamData>>({});
-
+const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
   useEffect(() => {
     const fetchData = async () => {
       const enriched: Game[] = [];
@@ -81,15 +81,34 @@ export default function Rodzic() {
     );
   };
 
-  const filteredGames =
-    selectedTags.length === 0
-      ? games
-      : games.filter((game) =>
-          selectedTags.every((tag) =>
-            game.tags.includes(tag)
-          )
-        );
+const filteredGames =
+  selectedTags.length === 0
+    ? games
+    : games.filter((game) =>
+        selectedTags.every((tag) =>
+          game.tags.includes(tag)
+        )
+      );
 
+
+const getAvgScore = (game: Game) => {
+  if (!game.reviews || game.reviews.length === 0) return 0;
+
+  return (
+    game.reviews.reduce(
+      (a: number, r: { score: number }) => a + r.score,
+      0
+    ) / game.reviews.length
+  );
+};
+const sortedGames = [...filteredGames].sort((a, b) => {
+  const avgA = getAvgScore(a);
+  const avgB = getAvgScore(b);
+
+  return sortOrder === "asc"
+    ? avgA - avgB
+    : avgB - avgA;
+});
   return (
     <div className="max-w-6xl mx-auto p-6 text-white  grid-cols-1 md:grid-cols-4 gap-6">
 
@@ -117,10 +136,23 @@ export default function Rodzic() {
         </div>
       </div>
 
+<div className="flex justify-end mt-5">
+<button
+  onClick={() =>
+    setSortOrder((prev) =>
+      prev === "asc" ? "desc" : "asc"
+    )
+  }
+  className="mb-4 px-4 py-2 bg-zinc-800 border border-blue-700 hover:bg-blue-600 rounded"
+>
+  Sortuj po ocenie: {sortOrder === "asc" ? "rosnąco" : "malejąco"}
+</button>
+
+</div>
       {/* 🎯 LISTA GIER */}
       <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
 
-        {filteredGames.map((game) => {
+        {sortedGames.map((game) => {
 
           const steam = steamData[game.steamAppId];
 
@@ -139,7 +171,7 @@ export default function Rodzic() {
               href={`/recenzja/${game.game}`}
             >
               <div
-                className="h-full flex flex-col bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition"
+                className="h-full flex flex-col bg-zinc-900 border border-zinc-800 hover:border-blue-500 rounded-xl overflow-hidden hover:scale-[1.02] transition"
               >
 
                 {/* IMAGE */}
