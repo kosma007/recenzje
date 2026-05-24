@@ -1,4 +1,261 @@
 [   
+
+  {
+    "game": "Ghostrunner_2",
+        "gamename": "Ghostrunner 2",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2144740/Ghostrunner_2/",
+        "steamAppId": 2144740,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/Db7UPeTWokE?si=ANW8yQUfAANGw46F",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 8.5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+   {
+    "game": "REMNANT_II",
+        "gamename": "REMNANT II",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1282100/REMNANT_II/",
+        "steamAppId": 1282100,
+    "reviews": [
+        {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/KV9v8tkleoM?si=HLXTexlXGYmX5C6x",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+   {
+    "game": "WUCHANG_Fallen_Feathers",
+        "gamename": "WUCHANG: Fallen Feathers",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2277560/WUCHANG_Fallen_Feathers/",
+        "steamAppId": 2277560,
+    "reviews": [
+        {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/EOeAsjadyxc?si=o0quuTSgCbz4gLhH",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "Wo_Long_Fallen_Dynasty",
+        "gamename": "Wo Long: Fallen Dynasty",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1448440/Wo_Long_Fallen_Dynasty/",
+        "steamAppId": 1448440,
+    "reviews": [
+        {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://www.youtube.com/watch?v=VWEU2GnBqPw",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 9,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/VWEU2GnBqPw?si=-od1eZVmgKP_THVD",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "King_Arthur_Knights_Tale",
+        "gamename": "King Arthur: Knight's Tale",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1157390/King_Arthur_Knights_Tale/",
+        "steamAppId": 1157390,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/JRkLb2bZ-nw?si=flADNKTVhEWz01RX",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Little_Nightmares_II",
+        "gamename": "Little Nightmares II",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/860510/Little_Nightmares_II/",
+        "steamAppId": 860510,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/39p2hedm1c8?si=1kR8Rwmh2p5Vd77w",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 6,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/BxWr04azerA?si=nC6d36nASt8yFgZ-",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Ruined_King_A_League_of_Legends_Story",
+        "gamename": "Ruined King: A League of Legends Story",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1276790/Ruined_King_A_League_of_Legends_Story/",
+        "steamAppId": 1276790,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/J3wwyJJe48k?si=72JWRZh9m4dT6So3",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "OUTRIDERS",
+        "gamename": "OUTRIDERS",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/680420/OUTRIDERS/",
+        "steamAppId": 680420,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/iZmMACqAhJA?si=Se3qEVVqi9qt11Ev",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    },
+ {
+    "game": "Mortal_Shell",
+        "gamename": "Mortal Shell",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1110910/Mortal_Shell/",
+        "steamAppId": 1110910,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/qGpaJhkTqTY?si=p1dpWJcqeeWpl2FK",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 8,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/qGpaJhkTqTY?si=p1dpWJcqeeWpl2FK",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 5,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "Conquerors_Blade",
+        "gamename": "Conquerors Blade",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/835570/Conquerors_Blade/",
+        "steamAppId": 835570,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/np2IkyYk2ng?si=EXWoNR-ITuzlR2nM",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Resident_Evil_Village",
+        "gamename": "Resident Evil Village",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1196590/Resident_Evil_Village/",
+        "steamAppId": 1196590,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/OAst8IRCJbM?si=ybRsWIXCpRcyFB68",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 9.5,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/CP-nigrp4qk?si=6HOkdV1NdyQ-2ouw",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Ghost_of_Tsushima_DIRECTORS_CUT",
+        "gamename": "Ghost of Tsushima DIRECTOR'S CUT",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/",
+        "steamAppId": 2215430,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/OCE7p_UJ87M?si=IeMmthKv2Y7ZCXpm",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 10,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/T2yi8Hm5Fss?si=Z0J2xpgFti1Ax7xr",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Diablo_II_Resurrected__Infernal_Edition",
+        "gamename": "Diablo II Resurrected: Infernal Edition",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2536520/Diablo_II_Resurrected__Infernal_Edition/",
+        "steamAppId": 2536520,
+    "reviews": [
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/3n6_MW43KPU?si=SPMzQHVHE9HrvKTM",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+    },
    {
     "game": "DARK_SOULS_II",
         "gamename": "DARK SOULS II",
@@ -81,6 +338,13 @@
         "image": "/youtubers/OnlyGamesPL.png",
         "score": 8,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/yihoEyXDzQQ?si=XGGxqvMlDxHeKCZd",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 5,
+       "cytat" : ""
       }
     ]
     },   
@@ -98,6 +362,20 @@
         "image": "/youtubers/OnlyGamesPL.png",
         "score": 5,
        "cytat" : ""
+      },
+      {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/Hf41MdPpUe4?si=LFZoUhSdNoUwMAb5",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 4,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/qsBMWfLH1KM?si=cv_7HgIxmWc_TBai",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 4,
+       "cytat" : ""
       }
     ]
     }, 
@@ -114,6 +392,20 @@
           "videoLink": "https://youtu.be/SSQQVVcZrso?si=V2mzox2LkBjgJGTA",
         "image": "/youtubers/OnlyGamesPL.png",
         "score": 9,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/-iBgz9Skf7c?si=O84dOpEwRDzMI_JR",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 7,
+       "cytat" : ""
+      },
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/36sEG1fLRQA?si=HKUR1fL0FtGfDsn3",
+        "image": "/youtubers/Arkadikuss.png",
+        "score": 7,
        "cytat" : ""
       }
     ]
@@ -149,6 +441,13 @@
         "image": "/youtubers/OnlyGamesPL.png",
         "score": 9,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/wFK0jKS6Xl8?si=i8cWoKDXU3r018cZ",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
     }, 
@@ -182,6 +481,13 @@
           "videoLink": "https://www.youtube.com/watch?v=v_2KQ3rL5TM",
         "image": "/youtubers/wscieklewasy.png",
         "score": 9,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/EIg9SzTpCZY?si=RQOh8mGe3rTP1Dlm",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 6,
        "cytat" : ""
       }
     ]
@@ -634,6 +940,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 10,
        "cytat" : ""
+      },
+        {
+        "youtuber": "Big Bad Dice",
+          "videoLink": "https://youtu.be/_jNFIepTP-0?si=U90bclMI9xD27y6V",
+        "image": "/youtubers/BigBadDice.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   }, 
@@ -754,6 +1067,13 @@
         "image": "/youtubers/zagrajniktv.png",
         "score": 9,
        "cytat" : ""
+      },
+      {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/Bl23JO4EPzM?si=Hlxiq_pxt_AR_kTf",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 8,
+       "cytat" : ""
       }
     ]
   },  
@@ -792,6 +1112,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 8,
        "cytat" : ""
+      },
+       {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/zSwK3gzAcyw?si=qcCsNZXaAevKv1DB",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   }, 
@@ -814,6 +1141,13 @@
         "youtuber": "Arkadikuss",
           "videoLink": "https://www.youtube.com/watch?v=tGM-O2trPhY",
         "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/srT7D-5mfMI?si=b6WqT-YSlBlGndLU",
+        "image": "/youtubers/AnonPeak.png",
         "score": 7,
        "cytat" : ""
       }
@@ -988,6 +1322,13 @@
         "videoLink": "https://www.youtube.com/watch?v=9bTmNvPzPGk",
         "score": 4,
         "cytat" : "Jeżeli miałbym go ocenic w perspektywie gry typu AAA ... to dałbym mu 0/10"
+      },
+       {
+        "youtuber": "AnonPeak",
+          "videoLink": "https://youtu.be/kM37Mrbj11U?si=JABx1DEp7Lb4_MZZ",
+        "image": "/youtubers/AnonPeak.png",
+        "score": 6,
+       "cytat" : ""
       }
     ]
   },
@@ -1001,9 +1342,9 @@
     "reviews": [
       {
         "youtuber": "Arkadikuss",
-          "videoLink": "https://www.youtube.com/watch?v=abc123",
+          "videoLink": "https://youtu.be/vKkc8Z4WfYE?si=GNdDe6gvyVlw-rHz",
         "image": "/youtubers/arkadikuss.png",
-        "score": 9
+        "score": 8
       }
     ]
   },
