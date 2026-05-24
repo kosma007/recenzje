@@ -41,6 +41,7 @@ export default function Rodzic({ gra }: { gra: string }) {
       </div>
     );
   }
+  const [showPanel, setShowPanel] = useState(true);
   const sliderRef = useRef<HTMLDivElement>(null);
   const isDown = useRef(false);
   const startX = useRef(0);
@@ -105,7 +106,13 @@ const videoUrl =
   firstMovie?.webm ||
   null;
   return (
-  <div className="relative mx-auto p-6 text-white ">
+  <div className="relative mx-auto min-h-[1250px] p-6 text-white ">
+        <button
+  onClick={() => setShowPanel((prev) => !prev)}
+  className="fixed bottom-5 right-5 bg-black/70 border-2 border-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg z-50"
+>
+  {showPanel ? "Ukryj panel" : "Pokaż panel"}
+</button>
 <video
   ref={(el) => {
     if (!el) return;
@@ -116,10 +123,10 @@ const videoUrl =
   src={videoUrl}
   autoPlay
   loop
-  muted
   playsInline
   className="absolute top-0 left-0 w-full h-full object-cover z-[-10]"
 />
+{showPanel && (
   <div className="max-w-6xl bg-black/50 mx-auto rounded-lg p-6 text-white ">
         <div className="w-full  lg:h-[300px] rounded-lg lg:flex">
             <div className="w-full lg:w-1/4 relative h-full flex justify-start max-lg:justify-center max-lg:items-center">
@@ -192,7 +199,7 @@ const videoUrl =
               src={src}
               alt={`screenshot-${i}`}
               fill
-              className="object-cover rounded-lg"
+              className="object-cover rounded-lg opacity-100"
             />
           </div>
         ))}
@@ -281,6 +288,7 @@ const videoUrl =
       </div>
         </div>
     </div>
+    )}
     </div>
   );
 }
