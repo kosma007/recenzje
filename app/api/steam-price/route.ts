@@ -40,13 +40,19 @@ return Response.json({
   screenshots: game?.screenshots?.map((s: any) => s.path_full),
 
   // 🎥 trailery / video
-  movies: game?.movies?.map((m: any) => ({
-    name: m.name,
-    thumbnail: m.thumbnail,
-    webm: m.webm,
-    mp4: m.mp4,
-    highlight: m.highlight,
-  })),
+movies: game?.movies?.map((m: any) => ({
+  name: m.name,
+  thumbnail: m.thumbnail,
+
+  // 🎥 NOWE STEAM FORMATY
+  hls: m.hls_h264,
+  dash: m.dash_h264,
+  dash_av1: m.dash_av1,
+
+  // fallback (czasem istnieje)
+  webm: m.webm?.max || m.webm,
+  highlight: m.highlight,
+})),
 
   // 💰 cena i promocje
   price: game?.price_overview?.final_formatted || "Free / brak ceny",

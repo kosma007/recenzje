@@ -16,6 +16,7 @@ type Review = {
 };
 
 type Game = {
+  movies: any;
   steamAppId: string | number;
   gamename: string;
   game: string;
@@ -76,6 +77,7 @@ export default function Rodzic({ gra }: { gra: string }) {
 const [screenshots, setScreenshots] = useState<string[]>([]);
 const [header_image, setHeader_image] = useState<string[]>([]);
 const [name, setName] = useState<string[]>([]);
+const [firstMovie, setFirstMovie] = useState<any>(null);
      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
      
   useEffect(() => {
@@ -91,17 +93,34 @@ const [name, setName] = useState<string[]>([]);
    setScreenshots(data.screenshots || []);
    setHeader_image(data.header_image || []);
    setName(data.name || []);
+setFirstMovie(data?.movies?.[0] || null);
       });
   }, []);
-
 
   const avgScore =
     game.reviews.reduce((acc, r) => acc + r.score, 0) /
     game.reviews.length;
-
+const videoUrl =
+  firstMovie?.hls ||
+  firstMovie?.webm ||
+  null;
   return (
-    <div className="max-w-6xl mx-auto p-6 text-white mt-5">
-      
+  <div className="relative mx-auto p-6 text-white ">
+<video
+  ref={(el) => {
+    if (!el) return;
+    el.onloadedmetadata = () => {
+      el.currentTime = 5;
+    };
+  }}
+  src={videoUrl}
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute top-0 left-0 w-full h-full object-cover z-[-10]"
+/>
+  <div className="max-w-6xl bg-black/50 mx-auto rounded-lg p-6 text-white ">
         <div className="w-full  lg:h-[300px] rounded-lg lg:flex">
             <div className="w-full lg:w-1/4 relative h-full flex justify-start max-lg:justify-center max-lg:items-center">
         <Image
@@ -115,7 +134,7 @@ const [name, setName] = useState<string[]>([]);
         <div className="w-full lg:w-2/4 relative h-full flex items-start justify-start ">
         <div className="text-left max-lg:text-center max-lg:mt-5">
             <h1 className="text-4xl font-bold mb-2">
-        {name || game.gamename}
+        {name || game.gamename}  
       </h1>
        <p className="text-lg text-gray-300"><span className="font-bold mb-5">{developers}</span></p> 
           <p className="text-lg text-gray-300">
@@ -134,7 +153,7 @@ const [name, setName] = useState<string[]>([]);
           </div>
           
         </div>
-         
+          
 
             <div className="lg:w-1/4 relative h-full flex items-center justify-center ">
               <span
@@ -199,7 +218,7 @@ const [name, setName] = useState<string[]>([]);
         {game.reviews.map((rev, i) => (
           <div
             key={i}
-            className="bg-[#18181B] lg:flex items-center border border-gray-800 rounded-xl p-5 "
+            className="bg-[#18181B]/80 lg:flex items-center border border-gray-800 rounded-xl p-5 "
           >
             {/* YOUTUBER HEADER */}
             <div className="flex items-center gap-4 mb-3 w-full lg:w-1/3">
@@ -262,6 +281,6 @@ const [name, setName] = useState<string[]>([]);
       </div>
         </div>
     </div>
-    
+    </div>
   );
 }
