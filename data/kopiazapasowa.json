@@ -1,226 +1,5 @@
 [   
    {
-    "game": "DARK_SOULS_II",
-        "gamename": "DARK SOULS II",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/236430/DARK_SOULS_II/",
-        "steamAppId": 236430,
-    "reviews": [
-        {
-        "youtuber": "Gamezilla",
-          "videoLink": "https://youtu.be/tJ30MvE4upo?si=KDmqjVkz5nBUrRlX",
-        "image": "/youtubers/Gamezilla.png",
-        "score": 10,
-       "cytat" : ""
-      }
-    ]
-    }, 
-   {
-    "game": "DARK_SOULS_III",
-        "gamename": "DARK SOULS III",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/374320/DARK_SOULS_III/",
-        "steamAppId": 374320,
-    "reviews": [
-        {
-        "youtuber": "Gamezilla",
-          "videoLink": "https://youtu.be/D2KXRnJU--k?si=scWLVl0PLN5HcS5Y",
-        "image": "/youtubers/Gamezilla.png",
-        "score": 9.5,
-       "cytat" : ""
-      }
-    ]
-    }, 
-  {
-    "game": "Crimson_Desert",
-        "gamename": "Crimson Desert",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/3321460/Crimson_Desert/",
-        "steamAppId": 3321460,
-    "reviews": [
-        {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/djEXcZcs8Vc?si=FLgVezDigELiMbxd",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 7,
-       "cytat" : ""
-      }
-    ]
-    }, 
-     {
-    "game": "Outlast",
-        "gamename": "Outlast",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/238320/Outlast/",
-        "steamAppId": 238320,
-    "reviews": [
-        {
-        "youtuber": "Recenzje Horrorów",
-          "videoLink": "https://www.youtube.com/watch?v=0Ly0Pu266qs",
-        "image": "/youtubers/RecenzjeHorrorow.png",
-        "score": 7,
-       "cytat" : ""
-      }
-    ]
-    }, 
-   {
-    "game": "Resident_Evil_3",
-        "gamename": "Resident Evil 3",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/952060/Resident_Evil_3/",
-        "steamAppId": 952060,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/isB5yDTyLfw?si=W9jUpX9uFHfkXkNG",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 8,
-       "cytat" : ""
-      }
-    ]
-    },   
-  {
-    "game": "The_Callisto_Protocol",
-        "gamename": "The Callisto Protocol",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/1544020/The_Callisto_Protocol/",
-        "steamAppId": 1544020,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/yCT8UXdZTcg?si=K3axDnqGzLxER_uR",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 5,
-       "cytat" : ""
-      }
-    ]
-    }, 
-  {
-    "game": "Resident_Evil_4",
-        "gamename": "Resident Evil 4",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
-        "steamAppId": 2050650,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/SSQQVVcZrso?si=V2mzox2LkBjgJGTA",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 9,
-       "cytat" : ""
-      }
-    ]
-    }, 
-   {
-    "game": "Alone_in_the_Dark",
-        "gamename": "Alone in the Dark",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/1310410/Alone_in_the_Dark/",
-        "steamAppId": 1310410,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/-9eytnteHPI?si=ixalfTxc9JTMzgBh",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 7,
-       "cytat" : ""
-      }
-    ]
-    }, 
-   {
-    "game": "SILENT_HILL_2",
-        "gamename": "SILENT HILL 2",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/2124490/SILENT_HILL_2/",
-        "steamAppId": 2124490,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/h1FNCP0ucos?si=qk_GNyQrzLl_2jvt",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 9,
-       "cytat" : ""
-      }
-    ]
-    }, 
-   {
-    "game": "Gears_of_War_Reloaded",
-        "gamename": "Gears of War Reloaded",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/2523720/Gears_of_War_Reloaded/",
-        "steamAppId": 2523720,
-    "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/E_f5rNSUVK4?si=2t1XY3FV-PmJFbiT",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 8,
-       "cytat" : ""
-      }
-    ]
-    }, 
-     {
-    "game": "STAR-WARS-Jedi-Ocalay",
-        "gamename": "STAR WARS Jedi: Ocalay",
-     "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/1774580/STAR_WARS_Jedi_Ocalay/",
-        "steamAppId":  1774580,
-    "reviews": [
-           {
-        "youtuber": "Wściekłe Wąsy",
-          "videoLink": "https://www.youtube.com/watch?v=v_2KQ3rL5TM",
-        "image": "/youtubers/wscieklewasy.png",
-        "score": 9,
-       "cytat" : ""
-      }
-    ]
-  },
-   {
-    "game": "Forza_Horizon_6",
-        "gamename": "Forza Horizon 6",
-     "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/2483190/Forza_Horizon_6/",
-        "steamAppId":  2483190,
-    "reviews": [
-           {
-        "youtuber": "Komputer swiat",
-          "videoLink": "https://www.youtube.com/watch?v=hv3W1c8r-To",
-        "image": "/youtubers/Komputer_swiat.png",
-        "score": 9,
-       "cytat" : ""
-      }
-    ]
-  },
-     {
-    "game": "Still_Wakes_the_Deep",
-        "gamename": "Still Wakes the Deep",
-     "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/",
-        "steamAppId":  1622910,
-    "reviews": [
-           {
-        "youtuber": "Heven",
-          "videoLink": "https://www.youtube.com/watch?v=cU9Q4I6BJvg&list=PLF2K6nOWnUsexNteArtnTmfPdX7jH83Aa&index=7",
-        "image": "/youtubers/Heven.png",
-        "score": 6,
-       "cytat" : ""
-      }
-    ]
-  },
-   {
     "game": "Once_Human",
         "gamename": "Once Human",
      "image": "",
@@ -232,7 +11,7 @@
         "youtuber": "Heven",
           "videoLink": "https://www.youtube.com/watch?v=SV0BkrzMV8s&list=PLF2K6nOWnUsexNteArtnTmfPdX7jH83Aa&index=6",
         "image": "/youtubers/Heven.png",
-        "score": 8,
+        "score": 7,
        "cytat" : ""
       }
     ]
@@ -335,13 +114,6 @@
           "videoLink": "https://www.youtube.com/watch?v=rE6IN32epOU",
         "image": "/youtubers/zagrajniktv.png",
         "score": 10,
-       "cytat" : ""
-      },
-         {
-        "youtuber": "Gamezilla",
-          "videoLink": "https://youtu.be/M-9fsiMqb_k?si=MgIqE0afz_XrFYUf",
-        "image": "/youtubers/gamezilla.png",
-        "score": 9.5,
        "cytat" : ""
       }
     ]
@@ -470,13 +242,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 7.5,
        "cytat" : ""
-      },
-       {
-        "youtuber": "Gamezilla",
-          "videoLink": "https://youtu.be/rhGctZHnsMg?si=mjPuEZZKCoOD0vUv",
-        "image": "/youtubers/gamezilla.png",
-        "score": 7,
-       "cytat" : ""
       }
     ]
   },  
@@ -534,13 +299,6 @@
           "videoLink": "https://www.youtube.com/watch?v=gQ4JJwPmTaA",
         "image": "/youtubers/snakeiter.png",
         "score": 6,
-       "cytat" : ""
-      },
-       {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/3ZaEwnhexuE?si=9NHzBNs6eJgTJ114",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 10,
        "cytat" : ""
       }
     ]
@@ -610,13 +368,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : ""
-      },
-       {
-        "youtuber": "Gamezilla",
-          "videoLink": "https://youtu.be/uXWm22699L0?si=iV5phZRrtrMgoANl",
-        "image": "/youtubers/gamezilla.png",
-        "score": 9,
-       "cytat" : ""
       }
     ]
   }, 
@@ -650,13 +401,6 @@
           "videoLink": "https://www.youtube.com/watch?v=O3PIbkR6gtU",
         "image": "/youtubers/arkadikuss.png",
         "score": 7,
-       "cytat" : ""
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/aquIGt8hQg0?si=GQA48lUyfT3KguyP",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 8,
        "cytat" : ""
       }
     ]
@@ -699,13 +443,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : ""
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/BFJZ5yoNgAc?si=iLiLg0hSbEk9zXHU",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 9,
-       "cytat" : ""
       }
     ]
   },    
@@ -723,13 +460,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 4,
        "cytat" : "Bawić sie przy niej można, jeśli ma sie niskie standardy"
-      },
-       {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/_MBokF99hhs?si=KAHkXk0mBU2nI8Tj",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 5,
-       "cytat" : ""
       }
     ]
   },    
@@ -765,13 +495,6 @@
     "shopLink": "https://store.steampowered.com/app/2101960/Cronos_The_New_Dawn/",
         "steamAppId": 2101960,
     "reviews": [
-        {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/DlOhAiMaY5Y?si=CVt6zwE0uo-YM9mX",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 8,
-       "cytat" : ""
-      },
        {
         "youtuber": "Arkadikuss",
           "videoLink": "https://www.youtube.com/watch?v=mAUjvsfOIcc&t=108s",
@@ -784,13 +507,6 @@
           "videoLink": "https://www.youtube.com/watch?v=cjKvfXz_Pf4",
         "image": "/youtubers/estess.png",
         "score": 6.5,
-       "cytat" : ""
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/NVzq776oPAM?si=qXr3PPu9Sv-mO7aU",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 8,
        "cytat" : ""
       }
     ]
@@ -840,13 +556,6 @@
         "image": "/youtubers/snakeiter.png",
         "score": 0,
        "cytat" : ""
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/q0mXRXncGzw?si=nos17acTlu2Wn1Fb",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 7,
-       "cytat" : ""
       }
     ]
   },
@@ -859,25 +568,11 @@
         "steamAppId": 2947440,
     "reviews": [
       {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://youtu.be/GofIojV6bfQ?si=kkGnHgNTaV52vuEc",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 8,
-       "cytat" : ""
-      },
-      {
         "youtuber": "Arkadikuss",
           "videoLink": "https://www.youtube.com/watch?v=W28tz2ox0Ss&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=4",
         "image": "/youtubers/arkadikuss.png",
         "score": 6,
        "cytat" : "Jest okej ale jest miejsce żeby było lepiej"
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/qyvhrVE0H6A?si=cE7kD3nfPWTdioAe",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 7,
-       "cytat" : ""
       }
     ]
   },
@@ -890,25 +585,11 @@
         "steamAppId": 3764200,
     "reviews": [
       {
-        "youtuber": "OnlyGamesPL",
-          "videoLink": "https://www.youtube.com/watch?v=GEnRVsuHyQI&list=PL1E80D00AFAEFE45D",
-        "image": "/youtubers/OnlyGamesPL.png",
-        "score": 9,
-       "cytat" : ""
-      },
-      {
         "youtuber": "Arkadikuss",
           "videoLink": "https://www.youtube.com/watch?v=W28tz2ox0Ss&list=PLEdzQqPxyJXrMksFlCuiaj9Ap4gXwkW-b&index=4",
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : "Nie ma tutaj specjalnie na co narzekać..."
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/mD1-Ku2bQuk?si=hhrLRmminUYKorOK",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 9.5,
-       "cytat" : ""
       }
     ]
   },
@@ -926,13 +607,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 6,
        "cytat" : "Nie żałuję, zakupu tej gry... ale jakoś nie potrafiłem przymknąć oka na wady jakie ta gra posiada"
-      },
-        {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/SCZNADeO9U8?si=8rKx_Qk4aXaUyu3c",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 10,
-       "cytat" : ""
       }
     ]
   },
@@ -957,13 +631,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 10,
        "cytat" : "...to prawdziwy diament, gra śmiem twierdzić perfekcyjna"
-      },
-       {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/xcDEbS3JBxw?si=1Znon_hJ5NMXe8qe",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 8,
-       "cytat" : ""
       }
     ]
   },
@@ -1021,13 +688,6 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : "Dla mnie Death stranding 2 to lepszy Death stranding"
-      },
-      {
-        "youtuber": "Big Bad Dice",
-          "videoLink": "https://youtu.be/brC9ULF2e3I?si=YBbVw7S7Ya7QhBvp",
-        "image": "/youtubers/BigBadDice.png",
-        "score": 8,
-       "cytat" : ""
       }
    
     ]
