@@ -1,7 +1,7 @@
 "use client";
 
 import reviewsData from "@/data/reviews.json";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,48 +15,64 @@ export default function RodzicMostHated() {
 
   useEffect(() => {
     const fetchAll = async () => {
-      const results: Record<number, SteamData> = {};
+      const results = await Promise.all(
+        reviewsData.map(async (game) => {
+          try {
+            const res = await fetch(
+              `/api/steam-price?appid=${game.steamAppId}`
+            );
 
-      for (const game of reviewsData) {
-        try {
-          const res = await fetch(
-            `/api/steam-price?appid=${game.steamAppId}`
-          );
+            const data = await res.json();
 
-          const data = await res.json();
-          results[game.steamAppId] = data;
-        } catch {
-          console.log("Steam error:", game.steamAppId);
+            return {
+              appId: game.steamAppId,
+              data,
+            };
+          } catch {
+            return {
+              appId: game.steamAppId,
+              data: null,
+            };
+          }
+        })
+      );
+
+      const mapped: Record<number, SteamData> = {};
+
+      results.forEach((r) => {
+        if (r.data) {
+          mapped[r.appId] = r.data;
         }
-      }
+      });
 
-      setSteamData(results);
+      setSteamData(mapped);
     };
 
     fetchAll();
   }, []);
 
-  const gamesWithAvg = reviewsData.map((game) => {
-    const avg = game.reviews?.length
-      ? game.reviews.reduce((a, r) => a + r.score, 0) /
-        game.reviews.length
-      : 0;
+  const worstGame = useMemo(() => {
+    const gamesWithAvg = reviewsData.map((game) => {
+      const avg = game.reviews?.length
+        ? game.reviews.reduce((a, r) => a + r.score, 0) /
+          game.reviews.length
+        : 0;
 
-    const steam = steamData[game.steamAppId] ?? null;
+      const steam = steamData[game.steamAppId];
 
-    const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
+      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
 
-    return {
-      ...game,
-      avg,
-      steam,
-      name: steam?.name || game.gamename,
-      desc: steam?.short_description || "Brak opisu",
-      image: verticalCover,
-    };
-  });
+      return {
+        ...game,
+        avg,
+        name: steam?.name || game.gamename,
+        desc: steam?.short_description || "Brak opisu",
+        image: verticalCover,
+      };
+    });
 
-  const worstGame = [...gamesWithAvg].sort((a, b) => a.avg - b.avg)[0];
+    return [...gamesWithAvg].sort((a, b) => a.avg - b.avg)[0];
+  }, [steamData]);
 
   if (!worstGame) return null;
 

@@ -1,8 +1,9 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import reviewsData from "@/data/reviews.json";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type SteamData = {
   name: string;
@@ -14,48 +15,65 @@ export default function Top3Games() {
 
   useEffect(() => {
     const fetchAll = async () => {
-      const results: Record<number, SteamData> = {};
+      const results = await Promise.all(
+        reviewsData.map(async (game) => {
+          try {
+            const res = await fetch(
+              `/api/steam-price?appid=${game.steamAppId}`
+            );
 
-      for (const game of reviewsData) {
-        try {
-          const res = await fetch(
-            `/api/steam-price?appid=${game.steamAppId}`
-          );
+            const data = await res.json();
 
-          const data = await res.json();
-          results[game.steamAppId] = data;
-        } catch {
-          console.log("Steam error:", game.steamAppId);
+            return {
+              appId: game.steamAppId,
+              data,
+            };
+          } catch {
+            return {
+              appId: game.steamAppId,
+              data: null,
+            };
+          }
+        })
+      );
+
+      const mapped: Record<number, SteamData> = {};
+
+      results.forEach((r) => {
+        if (r.data) {
+          mapped[r.appId] = r.data;
         }
-      }
+      });
 
-      setSteamData(results);
+      setSteamData(mapped);
     };
 
     fetchAll();
   }, []);
 
-  const top3 = [...reviewsData]
-    .map((game) => {
-      const avg = game.reviews?.length
-        ? game.reviews.reduce((a, r) => a + r.score, 0) /
-          game.reviews.length
-        : 0;
+  const top3 = useMemo(() => {
+    return [...reviewsData]
+      .map((game) => {
+        const avg = game.reviews?.length
+          ? game.reviews.reduce((a, r) => a + r.score, 0) /
+            game.reviews.length
+          : 0;
 
-      const steam = steamData[game.steamAppId] ?? null;
+        const steam = steamData[game.steamAppId];
 
-      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
+        const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
 
-      return {
-        ...game,
-        avg,
-        name: steam?.name || game.gamename,
-        desc: steam?.short_description || game.shortDesc,
-        image: verticalCover,
-      };
-    })
-    .sort((a, b) => b.avg - a.avg)
-    .slice(0, 3);
+        return {
+          ...game,
+          avg,
+          name: steam?.name || game.gamename,
+          desc: steam?.short_description || game.shortDesc,
+          image: verticalCover,
+        };
+      })
+      .sort((a, b) => b.avg - a.avg)
+      .slice(0, 3);
+  }, [steamData]);
 
   return (
     <div className="max-w-6xl mx-auto p-6 text-white">
@@ -94,7 +112,6 @@ export default function Top3Games() {
                 {game.name}
               </h3>
 
-              {/* SCORE */}
               <p className="mt-2 text-3xl font-bold">
                 <span
                   className={
@@ -110,12 +127,10 @@ export default function Top3Games() {
                 <span className="text-white text-lg"> /10</span>
               </p>
 
-              {/* DESC */}
               <p className="text-gray-400 text-sm mt-2 line-clamp-2">
                 {game.desc}
               </p>
 
-              {/* BUTTON */}
               <div className="w-full absolute bottom-0 left-0 flex justify-center">
                 <Link
                   href={`/recenzja/${game.game}`}
