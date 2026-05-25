@@ -42,6 +42,10 @@ export default function Rodzic({ gra }: { gra: string }) {
     );
   }
   const [showPanel, setShowPanel] = useState(true);
+const [muted, setMuted] = useState(false);
+const videoRef = useRef<HTMLVideoElement | null>(null);
+
+
   const sliderRef = useRef<HTMLDivElement>(null);
   const isDown = useRef(false);
   const startX = useRef(0);
@@ -107,12 +111,30 @@ const videoUrl =
   null;
   return (
   <div className="relative mx-auto min-h-[1250px] p-6 text-white ">
+    <div className="fixed bottom-5 right-5 flex gap-2 z-50">
         <button
   onClick={() => setShowPanel((prev) => !prev)}
-  className="fixed bottom-5 right-5 bg-black/70 border-2 border-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg z-50"
+  className="bg-black/70 border-2 border-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg z-50"
 >
   {showPanel ? "Ukryj panel" : "Pokaż panel"}
 </button>
+<button
+  onClick={() => {
+    setMuted((prev) => {
+      const newState = !prev;
+
+      if (videoRef.current) {
+        videoRef.current.muted = newState;
+      }
+
+      return newState;
+    });
+  }}
+  className=" bg-black/70 border-2 border-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-lg z-50"
+>
+  {muted ? "🔇" : "🔊"}
+</button>
+</div>
 <video
   ref={(el) => {
     if (!el) return;
@@ -121,6 +143,7 @@ const videoUrl =
     };
   }}
   src={videoUrl}
+    muted={muted}
   autoPlay
   loop
   playsInline
