@@ -15,16 +15,22 @@ export default function KontaktPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    // tutaj możesz podpiąć API / email / nodemailer
-    console.log(form);
+  const res = await fetch("/api/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(form),
+  });
 
+  if (res.ok) {
     setSent(true);
     setForm({ name: "", email: "", message: "" });
-  };
-
+  }
+};
   return (
     <div className="max-w-3xl mx-auto p-6 text-white">
 
@@ -80,7 +86,7 @@ export default function KontaktPage() {
 
         {sent && (
           <p className="text-green-400 mt-3">
-            Wiadomość wysłana (na razie tylko w konsoli 😏)
+            Wiadomość wysłana 
           </p>
         )}
 
@@ -89,7 +95,7 @@ export default function KontaktPage() {
       {/* INFO */}
       <div className="mt-10 text-gray-400 text-sm">
         <p>
-          📧 Email kontaktowy: <span className="text-white">kontakt@twójemail.pl</span>
+          📧 Email kontaktowy: <span className="text-white">kontakt@ludosratings.pl</span>
         </p>
         <p className="mt-2">
           🕒 Odpowiadamy zazwyczaj w ciągu 24–48h
