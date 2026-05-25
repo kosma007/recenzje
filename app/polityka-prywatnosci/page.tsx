@@ -166,7 +166,7 @@ export default function PrivacyPolicy() {
           </p>
 
           <p className="mt-2 text-blue-400">
-            kontakt@twojadomena.pl
+            kontakt@ludosratins.pl
           </p>
         </section>
 
