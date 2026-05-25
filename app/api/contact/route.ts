@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     const last = ipCooldown.get(ip) || 0;
 
     // 30 sekund anty-spam
-    if (now - last < 1_000) {
+    if (now - last < 30_000) {
       return Response.json(
         { ok: false, error: "Za często wysyłasz wiadomości 😏" },
         { status: 429 }
