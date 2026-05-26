@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/layout/footer";
 import Topka from "./components/layout/topka";
-import { Analytics } from "@vercel/analytics/next"
-
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -37,6 +37,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Topka />
 <Analytics/>
+ <SpeedInsights/>
         <main className="flex-1">{children}</main>
 
         <Footer />
