@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ludosratings.pl
+
+# Sitemaps
+Sitemap: https://www.ludosratings.pl/sitemap.xml

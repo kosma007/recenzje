@@ -148,13 +148,14 @@ export default function Rodzic() {
 
               {/* IMAGE */}
               <div className="relative w-full h-40">
+                {imgSrc && (
                 <Image
                   src={imgSrc}
                   alt={name}
                   fill
                   className="object-cover"
                 />
-
+)}
                 <RatingRing value={avg} />
               </div>
 
