@@ -1,5 +1,345 @@
 [   
       {
+    "game": "Jupiter_Hell",
+        "gamename": "Jupiter Hell",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/811320/Jupiter_Hell/",
+        "steamAppId": 811320,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/65SCRZ7qZhE?si=XqW5TFL1jDsPMEls",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+      {
+    "game": "Blood_West",
+        "gamename": "Blood West",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1587130/Blood_West/",
+        "steamAppId": 1587130,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/Ge44jheDzi8?si=z7kx32zcPDKw-g7i",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8.5,
+       "cytat" : ""
+      }
+    ]
+    },
+     {
+    "game": "Prince_of_Persia_The_Lost_Crown",
+        "gamename": "Prince of Persia: The Lost Crown",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2751000/Prince_of_Persia_The_Lost_Crown/",
+        "steamAppId": 2751000,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/niVoWbmQCNQ?si=8IF5mMp749FHOOx-",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Senuas_Saga_Hellblade_II",
+        "gamename": "Senua's Saga: Hellblade II",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2461850/Senuas_Saga_Hellblade_II/",
+        "steamAppId": 2461850,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/3ghhGX5fMdA?si=Uk2XpFXaHGG_qwy7",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    }, 
+    {
+    "game": "Star_Wars_Outlaws",
+        "gamename": "Star Wars Outlaws",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2842040/Star_Wars_Outlaws/",
+        "steamAppId": 2842040,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/8mZ12VyW4tk?si=WKJ_7QT1WL_hUU4c",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 4,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "DOOM_Eternal",
+        "gamename": "DOOM Eternal",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/782330/DOOM_Eternal/",
+        "steamAppId": 782330,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
+       "cytat" : ""
+      }
+    ]
+    },  
+    {
+    "game": "Ori_and_the_Will_of_the_Wisps",
+        "gamename": "Ori and the Will of the Wisps",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/",
+        "steamAppId": 1057090,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
+       "cytat" : ""
+      }
+    ]
+    },  
+  {
+    "game": "Assassins_Creed_Valhalla",
+        "gamename": "Assassin's Creed Valhalla",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/",
+        "steamAppId": 2208920,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "The_Pathless",
+        "gamename": "The Pathless",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1492680/The_Pathless/",
+        "steamAppId": 1492680,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    },
+     {
+    "game": "Call_of_Duty_Black_Ops_Cold_War",
+        "gamename": "Call of Duty: Black Ops Cold War",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1985810/Call_of_Duty_Black_Ops_Cold_War/",
+        "steamAppId": 1985810,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+    {
+    "game": "Immortals_Fenyx_Rising",
+        "gamename": "Immortals Fenyx Rising",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2221920/Immortals_Fenyx_Rising/",
+        "steamAppId": 2221920,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "The_Elder_Scrolls_IV_Oblivion_Remastered",
+        "gamename": "The Elder Scrolls IV: Oblivion Remastered",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2623190/The_Elder_Scrolls_IV_Oblivion_Remastered/",
+        "steamAppId": 2623190,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/LsmI66BqTpM?si=i4FJDjYFk63KhQqm",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "RoboCop_Rogue_City",
+        "gamename": "RoboCop: Rogue City",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1681430/RoboCop_Rogue_City/",
+        "steamAppId": 1681430,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/_pAsNka8Xjo?si=Gdi_aV92GBKCCE7Z",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+     {
+    "game": "Eriksholm_The_Stolen_Dream",
+        "gamename": "Eriksholm: The Stolen Dream",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2377280/Eriksholm_The_Stolen_Dream/",
+        "steamAppId": 2377280,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/DhqoJKAYZTQ?si=m3iZXivtYhBQlKy5",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+    {
+    "game": "Killing_Floor_3",
+        "gamename": "Killing Floor 3",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1430190/Killing_Floor_3/",
+        "steamAppId": 1430190,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/xW00rCgplrg?si=iesMzE_1XU5acCXS",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "Battlefield_6",
+        "gamename": "Battlefield 6",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2807960/Battlefield_6/",
+        "steamAppId": 2807960,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/T2ymoyi1fik?si=_8tCb0Y1W7YhTO6U",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 6.5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "The_Outer_Worlds_2",
+        "gamename": "The Outer Worlds 2",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1449110/The_Outer_Worlds_2/",
+        "steamAppId": 1449110,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/DGJFEOrYujM?si=wjPEvP-NRcxtzK-h",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
+   {
+    "game": "Verho__Curse_of_Faces",
+        "gamename": "Verho: Curse of Faces",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/3017330/Verho__Curse_of_Faces/",
+        "steamAppId": 3017330,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/PplFuysZSbk?si=jFLyMwMlmZ9tOssl",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "MY_HERO_ACADEMIA_Alls_Justice",
+        "gamename": "MY HERO ACADEMIA: All's Justice",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2362050/MY_HERO_ACADEMIA_Alls_Justice/",
+        "steamAppId": 2362050,
+    "reviews": [
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/dgoK70VDTXM?si=mc66wm-Dp2Zaf-Bc",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+   {
+    "game": "Backpack_Battles",
+        "gamename": "Backpack Battles",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2427700/Backpack_Battles/",
+        "steamAppId": 2427700,
+    "reviews": [
+        {
+        "youtuber": "Dariel",
+          "videoLink": "https://www.youtube.com/watch?v=icifSAka0xk&list=PLMyrQGLVRwDUA1d-6L02wqs8tj0Jq3dXY",
+        "image": "/youtubers/dariel.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+      {
     "game": "Kingdom_Come_Deliverance",
         "gamename": "Kingdom Come: Deliverance",
     "image": "",
@@ -12,6 +352,13 @@
           "videoLink": "https://youtu.be/gaAemGMkWjM?si=DOARbTz7522p1lBp",
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/JupUJCI65rQ?si=qnuzL0AMDGZkNbgR",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 8.5,
        "cytat" : ""
       }
     ]
@@ -286,6 +633,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
     },
@@ -353,6 +707,13 @@
           "videoLink": "https://youtu.be/djEXcZcs8Vc?si=FLgVezDigELiMbxd",
         "image": "/youtubers/BigBadDice.png",
         "score": 7,
+       "cytat" : ""
+      },
+        {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/XOhWAsI2Wx0?si=SFQRwQdjZUWsohu-",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 9,
        "cytat" : ""
       }
     ]
@@ -675,6 +1036,13 @@
         "image": "/youtubers/heven.png",
         "score": 6.5,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/30qrCSM5fZI?si=m79gMzP_24qGH3wd",
+        "image": "/youtubers/lupagodlajka.png",
+        "score": 9.5,
+       "cytat" : ""
       }
     ]
   },  
@@ -698,6 +1066,13 @@
           "videoLink": "https://youtu.be/M-9fsiMqb_k?si=MgIqE0afz_XrFYUf",
         "image": "/youtubers/gamezilla.png",
         "score": 9.5,
+       "cytat" : ""
+      },
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/xIW3TKHHtcM?si=eKUAakk3rTRp1Zh7",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
@@ -1021,6 +1396,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 8,
        "cytat" : ""
+      },
+         {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/kvUjfGgI97U?si=XaP0y4-JgVhDtMDp",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 6.5,
+       "cytat" : ""
       }
     ]
   }, 
@@ -1092,6 +1474,13 @@
           "videoLink": "https://youtu.be/_MBokF99hhs?si=KAHkXk0mBU2nI8Tj",
         "image": "/youtubers/BigBadDice.png",
         "score": 5,
+       "cytat" : ""
+      },
+         {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/F9BifMnh4mk?si=FlmCt4pIgKtBUaCU",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 6,
        "cytat" : ""
       }
     ]
@@ -1231,6 +1620,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 7,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/ww1tCw4JFrI?si=XV-YEsqcW8Q9N9VS",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 4,
+       "cytat" : ""
       }
     ]
   },
@@ -1317,6 +1713,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 10,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Lupa Godlajka",
+          "videoLink": "https://youtu.be/B_9FmJF1ELs?si=anOuWxw_KbfEMVWh",
+        "image": "/youtubers/LupaGodlajka.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   },
@@ -1395,6 +1798,13 @@
           "videoLink": "https://youtu.be/vKkc8Z4WfYE?si=GNdDe6gvyVlw-rHz",
         "image": "/youtubers/arkadikuss.png",
         "score": 8
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
   },
