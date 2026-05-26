@@ -72,7 +72,7 @@ const imgSrc = verticalCover;
     .slice(0, 3);
 
   return (
-    <div className="max-w-6xl mx-auto p-6 text-white mt-10">
+    <div className="max-w-6xl p-6 text-white mt-10">
       <h2 className="text-2xl font-bold mb-6">
         🎬 Ostatnie oceny YouTuberów
       </h2>
@@ -130,9 +130,9 @@ const imgSrc = verticalCover;
             </p>
 
             {/* CYTAT */}
-            <p className="text-gray-300 italic text-sm mb-3">
+            {/* <p className="text-gray-300 italic text-sm mb-3">
               {"cytat" in rev && rev.cytat ? `“${rev.cytat}”` : "Brak cytatu"}
-            </p>
+            </p> */}
 
             {/* LINK */}
             <Link
