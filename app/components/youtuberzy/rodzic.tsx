@@ -135,7 +135,7 @@ export default function YoutubersPage() {
 
               {u.avatar ? (
                 <img
-                  src={u.avatar}
+                 src={u.avatar?.toLowerCase()}
                   className="w-14 h-14 rounded-full object-cover border border-zinc-700"
                 />
               ) : (
