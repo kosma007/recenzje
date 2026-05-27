@@ -38,7 +38,9 @@ export default function Rodzic({ gra }: { gra: string }) {
         <h1 className="text-2xl font-bold">
           Nie znaleziono gry 😢
         </h1>
+        
       </div>
+
     );
   }
   const [showPanel, setShowPanel] = useState(true);
