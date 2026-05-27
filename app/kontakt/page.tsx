@@ -209,9 +209,7 @@ export default function KontaktPage() {
         <p>
           📧 kontakt@ludosratings.pl
         </p>
-        <p className="mt-2">
-          🕒 Odpowiadamy 24–48h
-        </p>
+ 
       </div>
 
     </div>
