@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import reviewsData from "@/data/reviews.json";
 import {
   BarChart,
@@ -134,8 +134,11 @@ export default function YoutubersPage() {
             <div className="flex items-center gap-4 mb-6 ">
 
               {u.avatar ? (
-                <img
-                 src={u.avatar?.toLowerCase()}
+                <Image
+                  src={u.avatar?.toLowerCase()}
+                  alt={u.name}
+                  width={56}
+                  height={56}
                   className="w-14 h-14 rounded-full object-cover border border-zinc-700"
                 />
               ) : (
