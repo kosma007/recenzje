@@ -61,7 +61,7 @@ export default function StatystykiRodzic() {
         </div>
 
         <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-xl shadow-lg bg-gradient-to-br from-black via-zinc-950 to-zinc-900 ">
-          <p className="text-gray-400">Recenzje</p>
+          <p className="text-gray-400">Oceny</p>
           <p className="text-3xl font-bold">{reviewCount}</p>
         </div>
 
