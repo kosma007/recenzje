@@ -38,7 +38,7 @@ export default function Rodzic({ gra }: { gra: string }) {
         <h1 className="text-2xl font-bold">
           Nie znaleziono gry 😢
         </h1>
-        
+
       </div>
 
     );
@@ -247,7 +247,7 @@ const videoUrl =
         Cena z Steama: <span className="font-bold ml-1"> {price}</span>
       </div>
        <div className="mt-5 lg:w-1/3 flex items-center justify-center">
-        Aktaulnie {players} graczy online Steam
+        Aktualnie {players} graczy online Steam
       </div>
        <div className="mt-5 lg:w-1/3 flex items-center justify-center">
         Data premiery: <span className="font-bold ml-1">{release_date}</span>
