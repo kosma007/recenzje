@@ -26,33 +26,51 @@ export default function PrivacyPolicy() {
         {/* 2 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            2. Zakres zbieranych danych
+            2. Formularz kontaktowy i recenzji
           </h2>
+
           <p>
-            Strona nie wymaga zakładania konta ani podawania danych osobowych
-            w celu korzystania z jej funkcji.
+            Strona umożliwia użytkownikom wysłanie wiadomości poprzez formularz kontaktowy
+            oraz przesłanie propozycji recenzji gier.
           </p>
 
           <p className="mt-2">
-            W sposób automatyczny mogą być zbierane dane techniczne, takie jak:
+            W ramach tych formularzy mogą być zbierane następujące dane:
           </p>
 
           <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li>adres IP (w logach serwera lub hostingu)</li>
-            <li>informacje o przeglądarce i systemie operacyjnym</li>
-            <li>czas i data wizyty</li>
-            <li>odwiedzane podstrony</li>
+            <li>adres e-mail</li>
+            <li>imię lub pseudonim</li>
+            <li>treść wiadomości</li>
+            <li>dane przesłane w formularzu recenzji (np. tytuł gry, ocena, link do wideo, nazwa YouTubera)</li>
           </ul>
 
           <p className="mt-2">
-            Dane te nie są wykorzystywane do identyfikacji użytkownika.
+            Dane te są wykorzystywane wyłącznie w celu kontaktu z użytkownikiem
+            lub przetworzenia przesłanej recenzji.
           </p>
         </section>
 
         {/* 3 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            3. Cookies (pliki cookies)
+            3. Podstawa prawna przetwarzania danych
+          </h2>
+
+          <p>
+            Dane osobowe przetwarzane są na podstawie:
+          </p>
+
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>art. 6 ust. 1 lit. a RODO – zgoda użytkownika</li>
+            <li>art. 6 ust. 1 lit. f RODO – uzasadniony interes administratora (kontakt i obsługa zapytań)</li>
+          </ul>
+        </section>
+
+        {/* 4 */}
+        <section>
+          <h2 className="text-xl font-semibold text-white mb-2">
+            4. Cookies (pliki cookies)
           </h2>
           <p>
             Strona może wykorzystywać pliki cookies w celach:
@@ -60,113 +78,61 @@ export default function PrivacyPolicy() {
 
           <ul className="list-disc ml-6 mt-2 space-y-1">
             <li>prawidłowego działania serwisu</li>
-            <li>statystyk odwiedzin (np. Google Analytics lub podobne narzędzia)</li>
+            <li>statystyk odwiedzin</li>
             <li>optymalizacji działania strony</li>
           </ul>
-
-          <p className="mt-2">
-            Użytkownik może w każdej chwili wyłączyć cookies w ustawieniach przeglądarki.
-          </p>
-        </section>
-
-        {/* 4 */}
-        <section>
-          <h2 className="text-xl font-semibold text-white mb-2">
-            4. Narzędzia i usługi zewnętrzne
-          </h2>
-          <p>
-            Strona korzysta z zewnętrznych źródeł danych:
-          </p>
-
-          <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li>Steam Web API – dane o grach (opis, cena, obrazki, statystyki)</li>
-            <li>YouTube – linki do materiałów wideo i recenzji</li>
-          </ul>
-
-          <p className="mt-2">
-            Dane są pobierane wyłącznie w trybie odczytu i nie są modyfikowane.
-          </p>
         </section>
 
         {/* 5 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            5. Brak rejestracji i kont użytkowników
+            5. Narzędzia i usługi zewnętrzne
           </h2>
-          <p>
-            Serwis nie umożliwia zakładania kont, logowania ani publikowania
-            treści przez użytkowników. W związku z tym nie przetwarza danych
-            osobowych użytkowników w tym zakresie.
-          </p>
+
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>Steam Web API – dane o grach</li>
+            <li>YouTube – materiały wideo</li>
+          </ul>
         </section>
 
         {/* 6 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            6. Odpowiedzialność za treści
+            6. Przechowywanie danych
           </h2>
+
           <p>
-            Wszystkie oceny, cytaty i opinie prezentowane na stronie pochodzą
-            z zewnętrznych źródeł (np. YouTube) i mają charakter informacyjny.
+            Dane przesłane przez formularze są przechowywane przez czas niezbędny
+            do realizacji celu kontaktu lub obsługi zgłoszenia.
           </p>
 
           <p className="mt-2">
-            Administrator serwisu nie odpowiada za treść materiałów publikowanych
-            przez osoby trzecie.
+            Dane nie są sprzedawane ani udostępniane podmiotom trzecim.
           </p>
         </section>
 
         {/* 7 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            7. Przechowywanie danych
+            7. Prawa użytkownika (RODO)
           </h2>
-          <p>
-            Strona nie przechowuje danych osobowych użytkowników w bazie danych.
-            Ewentualne dane techniczne są przechowywane przez dostawcę hostingu
-            zgodnie z jego polityką prywatności.
-          </p>
+
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>dostęp do danych</li>
+            <li>sprostowanie danych</li>
+            <li>usunięcie danych</li>
+            <li>ograniczenie przetwarzania</li>
+          </ul>
         </section>
 
         {/* 8 */}
         <section>
           <h2 className="text-xl font-semibold text-white mb-2">
-            8. Prawa użytkownika (RODO)
+            8. Kontakt
           </h2>
-          <p>
-            Jeżeli w przyszłości zakres przetwarzania danych ulegnie zmianie,
-            użytkownik będzie miał prawo do:
-          </p>
 
-          <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li>dostępu do swoich danych</li>
-            <li>ich sprostowania lub usunięcia</li>
-            <li>ograniczenia przetwarzania</li>
-          </ul>
-        </section>
-
-        {/* 9 */}
-        <section>
-          <h2 className="text-xl font-semibold text-white mb-2">
-            9. Zmiany polityki prywatności
-          </h2>
-          <p>
-            Polityka prywatności może być aktualizowana w związku z rozwojem
-            serwisu lub zmianami prawnymi.
-          </p>
-        </section>
-
-        {/* 10 */}
-        <section>
-          <h2 className="text-xl font-semibold text-white mb-2">
-            10. Kontakt
-          </h2>
-          <p>
-            W sprawach dotyczących prywatności można skontaktować się poprzez:
-          </p>
-
-          <p className="mt-2 text-blue-400">
-            kontakt@ludosratins.pl
+          <p className="text-blue-400 mt-2">
+            kontakt@ludosratings.pl
           </p>
         </section>
 
