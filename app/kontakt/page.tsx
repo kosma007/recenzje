@@ -53,7 +53,7 @@ export default function KontaktPage() {
           placeholder="Twoje imię"
           value={form.name}
           onChange={handleChange}
-          className="w-full p-3 bg-zinc-900 border border-zinc-700 rounded-lg outline-none"
+          className="w-full p-3 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-700 rounded-lg outline-none"
           required
         />
 
@@ -63,7 +63,7 @@ export default function KontaktPage() {
           placeholder="Twój email"
           value={form.email}
           onChange={handleChange}
-          className="w-full p-3 bg-zinc-900 border border-zinc-700 rounded-lg outline-none"
+          className="w-full p-3 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-700 rounded-lg outline-none"
           required
         />
 
@@ -73,7 +73,7 @@ export default function KontaktPage() {
           value={form.message}
           onChange={handleChange}
           rows={5}
-          className="w-full p-3 bg-zinc-900 border border-zinc-700 rounded-lg outline-none resize-none"
+          className="w-full p-3 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-700 rounded-lg outline-none resize-none"
           required
         />
 

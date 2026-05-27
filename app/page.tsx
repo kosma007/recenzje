@@ -4,6 +4,7 @@ import RodzicOstatnieRecenzje from "./components/home/ostatnierecenzje";
 import MostHated from "./components/home/mosthated";
 import BestGames from "./components/home/bestgames";
 import Info from "./components/home/info";
+import Wykresy from "./components/home/wykresy";
 
 export default function Page() {
   return (
@@ -16,10 +17,14 @@ export default function Page() {
       <Rodzic />
 
       <RodzicOstatnieRecenzje />
+ 
+      <Wykresy />
+
+          <BestGames />
 
       <MostHated />
 
-      <BestGames />
+  
 
     </div>
   );

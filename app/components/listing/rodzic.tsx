@@ -179,7 +179,7 @@ const getPages = () => {
     <div className="max-w-6xl mx-auto p-6 text-white">
 
       {/* TAGI */}
-      <div className="bg-zinc-900 border border-zinc-800 p-4 rounded-xl mb-6">
+      <div className="bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-800 p-4 rounded-xl mb-6">
         <h2 className="text-lg font-bold mb-3">Tagi:</h2>
 
         <div className="flex flex-wrap gap-2 ">
@@ -224,7 +224,7 @@ const getPages = () => {
 
           return (
             <Link key={game.game} href={`/recenzja/${game.game}`}>
-             <div className="h-full flex flex-col bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition">
+             <div className="h-full flex flex-col bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition">
 
                <div className="relative w-full h-40">
 

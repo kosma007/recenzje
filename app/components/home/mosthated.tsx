@@ -79,11 +79,9 @@ export default function RodzicMostHated() {
   return (
     <div className="max-w-6xl mx-auto p-6 text-white mt-10">
 
-      <h2 className="text-2xl font-bold mb-6">
-        💀 Most Hated Game
-      </h2>
+   
 
-      <div className="bg-zinc-900 border border-red-700 rounded-xl overflow-hidden hover:scale-[1.02] transition">
+      <div className="bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-red-700 rounded-xl overflow-hidden hover:scale-[1.02] transition">
 
         {/* IMAGE */}
         <div className="relative w-full h-56">

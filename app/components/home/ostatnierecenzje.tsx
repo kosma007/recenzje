@@ -73,16 +73,14 @@ const imgSrc = verticalCover;
 
   return (
     <div className="max-w-6xl p-6 text-white mt-10">
-      <h2 className="text-2xl font-bold mb-6">
-        🎬 Ostatnie oceny YouTuberów
-      </h2>
+  
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
         {latestReviews.map((rev, i) => (
           <div
             key={i}
-            className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:scale-[1.02] transition"
+            className="bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-800 rounded-xl p-4 hover:scale-[1.02] transition"
           >
 
             {/* GAME */}

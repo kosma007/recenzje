@@ -143,7 +143,7 @@ export default function Rodzic() {
           return (
             <div
               key={game.game}
-              className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition relative pb-10"
+              className="bg-gradient-to-br from-zinc-950 via-zinc-900 to-black border border-zinc-800 rounded-xl overflow-hidden hover:scale-[1.02] transition relative pb-10"
             >
 
               {/* IMAGE */}

@@ -82,9 +82,10 @@ const videoRef = useRef<HTMLVideoElement | null>(null);
 const [screenshots, setScreenshots] = useState<string[]>([]);
 const [header_image, setHeader_image] = useState<string[]>([]);
 const [name, setName] = useState<string[]>([]);
+const [release_date, setRelease_date] = useState<string[]>([]);
 const [firstMovie, setFirstMovie] = useState<any>(null);
      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
-     
+     const [players, setPlayers] = useState<number | null>(null);
   useEffect(() => {
     fetch(`/api/steam-price?appid=${game.steamAppId}`)
       .then(res => res.json())
@@ -98,7 +99,17 @@ const [firstMovie, setFirstMovie] = useState<any>(null);
    setScreenshots(data.screenshots || []);
    setHeader_image(data.header_image || []);
    setName(data.name || []);
-setFirstMovie(data?.movies?.[0] || null);
+    setRelease_date(data.release_date || []);
+setFirstMovie(data?.movies?.[0] || null); 
+
+
+   // 🔹 gracze online
+      fetch(`/api/statystyki?appid=${game.steamAppId}`)
+        .then(r => r.json())
+        .then(dataPlayers => {
+          setPlayers(dataPlayers?.response?.player_count ?? 0);
+        });
+
       });
   }, []);
 
@@ -161,7 +172,7 @@ const videoUrl =
           className="object-cover w-3/4 h-full px- rounded-lg"
         />
         </div>
-        <div className="w-full lg:w-2/4 relative h-full flex items-start justify-start ">
+        <div className="w-full lg:w-2/4 relative h-full flex items-start justify-center lg:justify-start ">
         <div className="text-left max-lg:text-center max-lg:mt-5">
             <h1 className="text-4xl font-bold mb-2">
         {name || game.gamename}  
@@ -230,15 +241,14 @@ const videoUrl =
     </div>
 
 <div className="lg:flex max-lg:text-center w-full">
-      <div className="mt-5 lg:w-1/4">
-        Cena z Steama: <span className="font-bold">{price}</span>
-  
+      <div className="mt-5 lg:w-1/3 flex items-center justify-center ">
+        Cena z Steama: <span className="font-bold ml-1"> {price}</span>
       </div>
-       <div className="mt-5 lg:w-2/4">
-  
+       <div className="mt-5 lg:w-1/3 flex items-center justify-center">
+        Aktaulnie {players} graczy online Steam
       </div>
-       <div className="mt-5 lg:w-1/4">
-      {}
+       <div className="mt-5 lg:w-1/3 flex items-center justify-center">
+        Data premiery: <span className="font-bold ml-1">{release_date}</span>
       </div>
 </div>
   
