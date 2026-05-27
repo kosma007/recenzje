@@ -32,7 +32,7 @@ export default function RootLayout({
     >
       <head>
 
-      </head>
+      </head> 
 
       <body className="min-h-full flex flex-col">
         <Topka />
