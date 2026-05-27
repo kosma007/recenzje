@@ -135,7 +135,7 @@ export default function YoutubersPage() {
 
               {u.avatar ? (
                 <Image
-                  src={u.avatar?.toLowerCase()}
+                  src={u.avatar}
                   alt={u.name}
                   width={56}
                   height={56}
