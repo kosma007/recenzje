@@ -1,4 +1,226 @@
 [   
+   {
+    "game": "Indiana_Jones_i_Wielki_Krg",
+        "gamename": "Indiana Jones i Wielki Krąg",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2677660/Indiana_Jones_i_Wielki_Krg/",
+        "steamAppId": 2677660,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "STALKER_2_Heart_of_Chornobyl",
+        "gamename": "STALKER 2: Heart of Chornobyl",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1643320/STALKER_2_Heart_of_Chornobyl/",
+        "steamAppId": 1643320,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 6.5,
+       "cytat" : ""
+      }
+    ]
+    },
+  
+  {
+    "game": "Dragons_Dogma_2",
+        "gamename": "Dragons Dogma 2",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2054970/Dragons_Dogma_2/",
+        "steamAppId": 2054970,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 6.5,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "Ereban_Shadow_Legacy",
+        "gamename": "Ereban: Shadow Legacy",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1671360/Ereban_Shadow_Legacy/",
+        "steamAppId": 1671360,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Aloft",
+        "gamename": "Aloft",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1660080/Aloft/",
+        "steamAppId": 1660080,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "Sniper_Elite_Resistance",
+        "gamename": "Sniper Elite Resistance",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2169200/Sniper_Elite_Resistance/",
+        "steamAppId": 2169200,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 6.5,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Sid_Meiers_Civilization_VII",
+        "gamename": "Sid Meier's Civilization VII",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1295660/Sid_Meiers_Civilization_VII/",
+        "steamAppId": 1295660,
+    "reviews": [
+        {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Mafia_III_Definitive_Edition",
+        "gamename": "Mafia III: Definitive Edition",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/360430/Mafia_III_Definitive_Edition/",
+        "steamAppId": 360430,
+    "reviews": [
+        {
+        "youtuber": "wiliextreme",
+          "videoLink": "https://youtu.be/wrEMFMXrdZs?si=a_WJ-MtOgWi_qpbM",
+        "image": "/youtubers/wiliextreme.png",
+        "score": 3,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Wiedmin_3_Dziki_Gon",
+        "gamename": "Wiedmin 3: Dziki Gon",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/292030/Wiedmin_3_Dziki_Gon/",
+        "steamAppId": 292030,
+    "reviews": [
+        {
+        "youtuber": "wiliextreme",
+          "videoLink": "https://www.youtube.com/watch?v=BRDoJj7u3o4",
+        "image": "/youtubers/wiliextreme.png",
+        "score": 10,
+       "cytat" : ""
+      }
+    ]
+    },
+      {
+    "game": "Metro_2033_Redux",
+        "gamename": "Metro 2033 Redux",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/286690/Metro_2033_Redux/",
+        "steamAppId": 286690,
+    "reviews": [
+        {
+        "youtuber": "Play Games",
+          "videoLink": "https://youtu.be/sBIFZa1a1ZE?si=GZ0MDN_-hDx-tf_L",
+        "image": "/youtubers/playgames.png",
+        "score": 8.5,
+       "cytat" : ""
+      }
+    ]
+    },
+     {
+    "game": "Horizon_Zero_Dawn_Complete_Edition",
+        "gamename": "Horizon Zero Dawn Complete Edition",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/",
+        "steamAppId": 1151640,
+    "reviews": [
+        {
+        "youtuber": "Play Games",
+          "videoLink": "https://youtu.be/o_IHWdnLyiY?si=H-ggTFWGnd6sIS9M",
+        "image": "/youtubers/playgames.png",
+        "score": 9.5,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "Metro_Last_Light_Redux",
+        "gamename": "Metro: Last Light Redux",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/287390/Metro_Last_Light_Redux/",
+        "steamAppId": 287390,
+    "reviews": [
+        {
+        "youtuber": "Play Games",
+          "videoLink": "https://youtu.be/rTkTrEFS7qc?si=Ddd5JYia80MOwxJ7",
+        "image": "/youtubers/playgames.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
+    "game": "Dark_Souls_Remastered",
+        "gamename": "Dark Souls Remastered",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/",
+        "steamAppId": 570940,
+    "reviews": [
+        {
+        "youtuber": "Play Games",
+          "videoLink": "https://www.youtube.com/watch?v=8RUyzxjyPxM",
+        "image": "/youtubers/playgames.png",
+        "score": 9.2,
+       "cytat" : ""
+      }
+    ]
+    },
     {
     "game": "Black_Mesa",
         "gamename": "Black Mesa",
@@ -64,6 +286,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 6,
        "cytat" : ""
+      },
+      {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 8,
+       "cytat" : ""
       }
     ]
     },
@@ -80,6 +309,13 @@
           "videoLink": "https://youtu.be/3ghhGX5fMdA?si=Uk2XpFXaHGG_qwy7",
         "image": "/youtubers/arkadikuss.png",
         "score": 6,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 7.5,
        "cytat" : ""
       }
     ]
@@ -98,6 +334,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 4,
        "cytat" : ""
+      },
+      {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 6,
+       "cytat" : ""
       }
     ]
     }, 
@@ -114,6 +357,13 @@
           "videoLink": "https://www.youtube.com/watch?v=p2h-fxI7mus",
         "image": "/youtubers/fybedi.png",
         "score": 8.5,
+       "cytat" : ""
+      },
+        {
+        "youtuber": "wiliextreme",
+          "videoLink": "https://youtu.be/Vv7G6i6lKzU?si=yN_EEf_EpO7RyfrH",
+        "image": "/youtubers/wiliextreme.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
@@ -216,6 +466,13 @@
           "videoLink": "https://youtu.be/LsmI66BqTpM?si=i4FJDjYFk63KhQqm",
         "image": "/youtubers/lupagodlajka.png",
         "score": 7.5,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
@@ -708,6 +965,13 @@
         "image": "/youtubers/gamezilla.png",
         "score": 9.5,
        "cytat" : ""
+      },
+       {
+        "youtuber": "wiliextreme",
+          "videoLink": "https://youtu.be/hKs5bm0iXyk?si=pyjP6bUE3Be2g38A",
+        "image": "/youtubers/wiliextreme.png",
+        "score": 10,
+       "cytat" : ""
       }
     ]
     }, 
@@ -876,6 +1140,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 7,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 8,
+       "cytat" : ""
       }
     ]
     }, 
@@ -1002,6 +1273,13 @@
         "image": "/youtubers/heven.png",
         "score": 9,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 7.5,
+       "cytat" : ""
       }
     ]
   },
@@ -1035,6 +1313,13 @@
           "videoLink": "https://www.youtube.com/watch?v=vzgWYi2J9Iw&list=PLF2K6nOWnUsexNteArtnTmfPdX7jH83Aa&index=2",
         "image": "/youtubers/heven.png",
         "score": 8,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
        "cytat" : ""
       }
     ]
@@ -1090,6 +1375,13 @@
           "videoLink": "https://youtu.be/xIW3TKHHtcM?si=eKUAakk3rTRp1Zh7",
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
+       "cytat" : ""
+      },
+        {
+        "youtuber": "Play Games",
+          "videoLink": "https://www.youtube.com/watch?v=14mVJDw2-k4",
+        "image": "/youtubers/playgames.png",
+        "score": 8.5,
        "cytat" : ""
       }
     ]
@@ -1183,6 +1475,13 @@
           "videoLink": "https://www.youtube.com/watch?v=lR-6aoqer8s&t=2420s",
         "image": "/youtubers/kiszak.png",
         "score": 9.5,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
        "cytat" : ""
       }
     ]
@@ -1290,6 +1589,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 10,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
   },
@@ -1339,6 +1645,13 @@
         "youtuber": "Arkadikuss",
           "videoLink": "https://www.youtube.com/watch?v=ISZTNjfYhXk",
         "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
         "score": 7,
        "cytat" : ""
       }
@@ -1468,6 +1781,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 9,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
   },    
@@ -1498,6 +1818,13 @@
           "videoLink": "https://youtu.be/F9BifMnh4mk?si=FlmCt4pIgKtBUaCU",
         "image": "/youtubers/lupagodlajka.png",
         "score": 6,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
        "cytat" : ""
       }
     ]
@@ -1644,6 +1971,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 4,
        "cytat" : ""
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=r5xKBJ4mZKM",
+        "image": "/youtubers/fybedi.png",
+        "score": 6,
+       "cytat" : ""
       }
     ]
   },
@@ -1736,6 +2070,13 @@
           "videoLink": "https://youtu.be/B_9FmJF1ELs?si=anOuWxw_KbfEMVWh",
         "image": "/youtubers/lupagodlajka.png",
         "score": 7,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "PrzeGryw",
+          "videoLink": "https://www.youtube.com/watch?v=QtkX94wYrCE",
+        "image": "/youtubers/przegryw.png",
+        "score": 7.5,
        "cytat" : ""
       }
     ]
@@ -1872,6 +2213,13 @@
         "videoLink": "https://www.youtube.com/watch?v=XT4-1VMgw0Y",
         "score": 4,
         "cytat" : "To nie przypomina pierwszego dragon age | to nie jest RPG to jest słuchajcie slasher"
+      },
+       {
+        "youtuber": "FYBEDI",
+          "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
+        "image": "/youtubers/fybedi.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   }
