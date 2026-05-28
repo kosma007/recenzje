@@ -45,7 +45,7 @@ export default function Rodzic() {
 
               const tags = [
                 ...(data.genres || []),
-                ...(data.categories || []),
+       
               ];
 
               return {

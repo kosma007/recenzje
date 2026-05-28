@@ -88,6 +88,7 @@ const [release_date, setRelease_date] = useState<string[]>([]);
 const [firstMovie, setFirstMovie] = useState<any>(null);
      const verticalCover = `https://steamcdn-a.akamaihd.net/steam/apps/${game.steamAppId}/library_600x900_2x.jpg`;
      const [players, setPlayers] = useState<number | null>(null);
+     const [categories, setCategories] = useState<string[]>([]);
   useEffect(() => {
     fetch(`/api/steam-price?appid=${game.steamAppId}`)
       .then(res => res.json())
@@ -103,9 +104,9 @@ const [firstMovie, setFirstMovie] = useState<any>(null);
    setName(data.name || []);
     setRelease_date(data.release_date || []);
 setFirstMovie(data?.movies?.[0] || null); 
+ setCategories(data.genres || []);
 
-
-   // 🔹 gracze online
+   // 🔹 gracze online1
       fetch(`/api/statystyki?appid=${game.steamAppId}`)
         .then(r => r.json())
         .then(dataPlayers => {
@@ -179,10 +180,18 @@ const videoUrl =
             <h1 className="text-4xl font-bold mb-2">
         {name || game.gamename}  
       </h1>
-       <p className="text-lg text-gray-300"><span className="font-bold mb-5">{developers}</span></p> 
+             <div>
+          
+  <span className="text-xl  text-gray-400 font-normal">
+    {categories.map((c) => c).join(", ")}
+  </span>
+
+</div>
+       <p className="text-lg text-gray-300 mt-2"><span className="font-bold mb-5">{developers}</span></p> 
           <p className="text-lg text-gray-300">
             {short_description}
           </p>
+   
           <Link
   href={game.shopLink}
   target="_blank"
@@ -314,6 +323,7 @@ const videoUrl =
           </div>
         ))}
       </div>
+      
       <div className="mt-20 lg:flex lg:gap-10">
        <div  dangerouslySetInnerHTML={{ __html: pc_minimum }} className="mt-5 lg:w-1/2">
 
