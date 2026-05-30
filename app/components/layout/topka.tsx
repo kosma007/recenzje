@@ -39,15 +39,38 @@ export default function TopMenu() {
             <div className="text-md font-bold w-1/3 flex justify-start items-center">
                       
                       </div>
-                      <div className="text-md font-bold w-1/3 flex justify-start items-center">
-                      <Link href="/kontakt">Kontakt</Link>
-                      </div>
-                       <div className="text-md font-bold w-1/3 flex justify-start items-center">
-                      <Link href="/youtuberzy">Youtuberzy</Link>
-                      </div>
-                       <div className="text-md font-bold w-1/3 flex justify-start items-center">
-                      <Link href="/listing">Lista gier</Link>
-                      </div>
+                     <div className="text-md font-bold w-1/3 flex justify-start items-center">
+  <Link
+    href="/kontakt"
+    className="relative group"
+  >
+    Kontakt
+
+    <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+  </Link>
+</div>
+
+<div className="text-md font-bold w-1/3 flex justify-start items-center">
+  <Link
+    href="/youtuberzy"
+    className="relative group"
+  >
+    Youtuberzy
+
+    <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+  </Link>
+</div>
+
+<div className="text-md font-bold w-1/3 flex justify-start items-center">
+  <Link
+    href="/listing"
+    className="relative group"
+  >
+    Lista gier
+
+    <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+  </Link>
+</div>
         </div>
         
           <input
