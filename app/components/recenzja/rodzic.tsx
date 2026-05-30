@@ -44,7 +44,7 @@ export default function Rodzic({ gra }: { gra: string }) {
     );
   }
   const [showPanel, setShowPanel] = useState(true);
-const [muted, setMuted] = useState(false);
+const [muted, setMuted] = useState(true);
 const videoRef = useRef<HTMLVideoElement | null>(null);
 
 
