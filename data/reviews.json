@@ -1,5 +1,90 @@
 [   
    {
+    "game": "007_First_Light",
+        "gamename": "007 First Light",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/3768760/007_First_Light/",
+        "steamAppId": 3768760,
+    "reviews": [
+        {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=MUUzh3ZQc5E",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 5.5,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "Need_for_Speed_Unbound",
+        "gamename": "Need for Speed Unbound",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/",
+        "steamAppId": 1846380,
+    "reviews": [
+        {
+        "youtuber": "OnlyGamesPL",
+          "videoLink": "https://youtu.be/bVET8YpXP_Q?si=NXPzckwhKnzIHe_u",
+        "image": "/youtubers/onlygamespl.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+    {
+    "game": "GRID_Legends",
+        "gamename": "GRID Legends",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1307710/GRID_Legends/",
+        "steamAppId": 1307710,
+    "reviews": [
+        {
+        "youtuber": "OnlyGamesPL",
+          "videoLink": "https://youtu.be/IfYPYZngEl4?si=yC-rT6SVQnfWZnzG",
+        "image": "/youtubers/onlygamespl.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Need_for_Speed_Hot_Pursuit_Remastered",
+        "gamename": "Need for Speed: Hot Pursuit Remastered",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1328660/Need_for_Speed_Hot_Pursuit_Remastered/",
+        "steamAppId": 1328660,
+    "reviews": [
+        {
+        "youtuber": "OnlyGamesPL",
+          "videoLink": "https://youtu.be/IcNChOHLDOk?si=1FqurY228iOklZpn",
+        "image": "/youtubers/onlygamespl.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Need_for_Speed",
+        "gamename": "Need for Speed",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1262540/Need_for_Speed/",
+        "steamAppId": 1262540,
+    "reviews": [
+        {
+        "youtuber": "OnlyGamesPL",
+          "videoLink": "https://www.youtube.com/watch?v=qhuRe6gYUmM",
+        "image": "/youtubers/onlygamespl.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    },
+   {
     "game": "Indiana_Jones_i_Wielki_Krg",
         "gamename": "Indiana Jones i Wielki Krąg",
     "image": "",
@@ -132,6 +217,13 @@
           "videoLink": "https://youtu.be/wrEMFMXrdZs?si=a_WJ-MtOgWi_qpbM",
         "image": "/youtubers/wiliextreme.png",
         "score": 3,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "OnlyGamesPL",
+          "videoLink": "https://youtu.be/PiRwgL4I25E?si=K7sRU6oUzYnQyKpY",
+        "image": "/youtubers/onlygamespl.png",
+        "score": 6,
        "cytat" : ""
       }
     ]
@@ -718,6 +810,13 @@
           "videoLink": "https://youtu.be/EOeAsjadyxc?si=o0quuTSgCbz4gLhH",
         "image": "/youtubers/AnonPeak.png",
         "score": 7,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=dq7HQ-r8XQg",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 6,
        "cytat" : ""
       }
     ]
@@ -1321,6 +1420,13 @@
         "image": "/youtubers/fybedi.png",
         "score": 8.5,
        "cytat" : ""
+      },
+      {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=f9A4Sa2UVaM",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 5,
+       "cytat" : ""
       }
     ]
   },       
@@ -1788,6 +1894,13 @@
         "image": "/youtubers/fybedi.png",
         "score": 9,
        "cytat" : ""
+      },
+        {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=ujDYsnKDghE",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
   },    
@@ -1902,6 +2015,13 @@
         "image": "/youtubers/AnonPeak.png",
         "score": 7,
        "cytat" : ""
+      },
+      {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=dqWSE6XvqaU",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
   }, 
@@ -2009,6 +2129,13 @@
         "image": "/youtubers/BigBadDice.png",
         "score": 7,
        "cytat" : ""
+      },
+       {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=lYnr7SmxM74",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 6.5,
+       "cytat" : ""
       }
     ]
   },
@@ -2039,6 +2166,13 @@
           "videoLink": "https://youtu.be/mD1-Ku2bQuk?si=hhrLRmminUYKorOK",
         "image": "/youtubers/BigBadDice.png",
         "score": 9.5,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=ADROmRBjMuw",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
@@ -2078,6 +2212,13 @@
         "image": "/youtubers/przegryw.png",
         "score": 7.5,
        "cytat" : ""
+      },
+      {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=ADROmRBjMuw",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
   },
@@ -2108,6 +2249,13 @@
           "videoLink": "https://youtu.be/xcDEbS3JBxw?si=1Znon_hJ5NMXe8qe",
         "image": "/youtubers/BigBadDice.png",
         "score": 8,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=Sh_9esWLXzo",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 9,
        "cytat" : ""
       }
     ]
