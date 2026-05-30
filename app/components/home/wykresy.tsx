@@ -115,12 +115,8 @@ export default function StatystykiRodzic() {
   }}
 />
 
-              {/* 🧠 LEGENDA Z NAZWAMI */}
-              <Legend
-                formatter={(value, entry, index) =>
-                  chartData[index]?.name
-                }
-              />
+        
+            
 
             </RadialBarChart>
           </ResponsiveContainer>

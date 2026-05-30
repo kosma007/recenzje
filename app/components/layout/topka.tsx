@@ -94,7 +94,7 @@ export default function TopMenu() {
          <Link href="/kontakt">Kontakt</Link>
         </div>
        <div className="text-md font-bold w-full flex justify-start items-center">
-         <Link href="/kontakt"></Link>
+         <Link href="/youtuberzy">Youtuberzy</Link>
         </div>
          <div className="text-md font-bold w-full flex justify-start items-center">
           <Link href="/listing">Lista gier</Link>
