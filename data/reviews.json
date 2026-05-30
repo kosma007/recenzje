@@ -1,4 +1,106 @@
-[   
+[  
+  {
+    "game": "Little_Nightmares_III",
+        "gamename": "Little Nightmares III",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1392860/Little_Nightmares_III/",
+        "steamAppId": 1392860,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=pRyW0QKFUiU",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "REPLACED",
+        "gamename": "REPLACED",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1663850/REPLACED/",
+        "steamAppId": 1663850,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=Tp7RxhdGGLk",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
+    "game": "Directive_8020",
+        "gamename": "Directive 8020",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2255370/Directive_8020/",
+        "steamAppId": 2255370,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://youtu.be/WqMp-8TaFVY?si=aO_C6TIr4wz9gsiX",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    }, 
+   {
+    "game": "MOUSE_PI_For_Hire",
+        "gamename": "MOUSE PI: For Hire",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/2416450/MOUSE_PI_For_Hire/",
+        "steamAppId": 2416450,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://youtu.be/8kb1EAPtK_I?si=v2ekrVr8pVWsXMoh",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8,
+       "cytat" : ""
+      }
+    ]
+    }, 
+    {
+    "game": "Tormented_Souls",
+        "gamename": "Tormented Souls",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1367590/Tormented_Souls/",
+        "steamAppId": 1367590,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=Wo0d4NyCUGI",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 7.5,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
+    "game": "Divinity_Original_Sin_2_Definitive_Edition",
+        "gamename": "Divinity Original Sin 2: Definitive Edition",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/",
+        "steamAppId": 435150,
+    "reviews": [
+        {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=4xFGC_4xT_k&list=PLB1d9Gjsa9VHpkI-bPCugORV1eS_u0La0",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+    },
    {
     "game": "007_First_Light",
         "gamename": "007 First Light",
@@ -133,7 +235,7 @@
         "image": "/youtubers/fybedi.png",
         "score": 6.5,
        "cytat" : ""
-      }
+      } 
     ]
     },
    {
@@ -385,6 +487,13 @@
         "image": "/youtubers/fybedi.png",
         "score": 8,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=JCb2qA7runI",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
     },
@@ -582,6 +691,13 @@
           "videoLink": "https://youtu.be/_pAsNka8Xjo?si=Gdi_aV92GBKCCE7Z",
         "image": "/youtubers/lupagodlajka.png",
         "score": 7.5,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=wlGiQ6FbH_0",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 9,
        "cytat" : ""
       }
     ]
@@ -883,6 +999,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 8,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=0MmC-S417eQ",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8.5,
+       "cytat" : ""
       }
     ]
     },
@@ -1167,6 +1290,13 @@
         "image": "/youtubers/arkadikuss.png",
         "score": 4,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=HChyUO0vmbM",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8,
+       "cytat" : ""
       }
     ]
     }, 
@@ -1197,6 +1327,20 @@
           "videoLink": "https://youtu.be/36sEG1fLRQA?si=HKUR1fL0FtGfDsn3",
         "image": "/youtubers/arkadikuss.png",
         "score": 7,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=bT8DwelTgQY",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 9,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=4sWA-FQln_A",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
@@ -1245,6 +1389,13 @@
           "videoLink": "https://www.youtube.com/watch?v=_4eRMU8W_1Q",
         "image": "/youtubers/fybedi.png",
         "score": 8,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=20QIcZ0lMA4",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 9.5,
        "cytat" : ""
       }
     ]
@@ -1450,6 +1601,13 @@
           "videoLink": "https://youtu.be/30qrCSM5fZI?si=m79gMzP_24qGH3wd",
         "image": "/youtubers/lupagodlajka.png",
         "score": 9.5,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=6Its5RVrbtU",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 7,
        "cytat" : ""
       }
     ]
@@ -1702,6 +1860,13 @@
         "image": "/youtubers/fybedi.png",
         "score": 8.5,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=dDFYlIt-aZA",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
   },
@@ -1863,6 +2028,13 @@
         "image": "/youtubers/kiszak.png",
         "score": 9.5,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=VxjGg8xSXZU",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 10,
+       "cytat" : ""
       }
     ]
   },    
@@ -1971,6 +2143,7 @@
         "score": 8,
        "cytat" : ""
       }
+      
     ]
   },  
   {
@@ -2022,6 +2195,20 @@
         "image": "/youtubers/bubbazaur.png",
         "score": 7,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=3t7G_WU5Ev4",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 8,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=9_kKiRYPZ34",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
   }, 
@@ -2052,6 +2239,13 @@
           "videoLink": "https://youtu.be/srT7D-5mfMI?si=b6WqT-YSlBlGndLU",
         "image": "/youtubers/AnonPeak.png",
         "score": 7,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=EFjwHnqCK_U",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8.5,
        "cytat" : ""
       }
     ]
@@ -2136,6 +2330,20 @@
         "image": "/youtubers/bubbazaur.png",
         "score": 6.5,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=ozCRmYRMMrY",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 7,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=muCBIkXh_kA",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 10,
+       "cytat" : ""
       }
     ]
   },
@@ -2173,6 +2381,13 @@
           "videoLink": "https://www.youtube.com/watch?v=ADROmRBjMuw",
         "image": "/youtubers/bubbazaur.png",
         "score": 8,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://youtu.be/STX7SKojGt0?si=ujDox_giv53SwxfL",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 9.5,
        "cytat" : ""
       }
     ]
@@ -2257,6 +2472,13 @@
         "image": "/youtubers/bubbazaur.png",
         "score": 9,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=cHmejHYAqo4",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 10,
+       "cytat" : ""
       }
     ]
   },
@@ -2287,6 +2509,13 @@
           "videoLink": "https://youtu.be/kM37Mrbj11U?si=JABx1DEp7Lb4_MZZ",
         "image": "/youtubers/AnonPeak.png",
         "score": 6,
+       "cytat" : ""
+      },
+       {
+        "youtuber": "Do Diabla z Grami",
+          "videoLink": "https://www.youtube.com/watch?v=lyrQOcEvi9c",
+        "image": "/youtubers/dodiablazygrami.png",
+        "score": 8,
        "cytat" : ""
       }
     ]
