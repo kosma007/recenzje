@@ -1,5 +1,22 @@
 [  
   {
+    "game": "Dying_Light_2_Stay_HUMAN_Reloaded_Edition",
+        "gamename": "Dying Light 2: Stay HUMAN Reloaded Edition",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human_Reloaded_Edition/",
+        "steamAppId": 534380,
+    "reviews": [
+        {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://youtu.be/1bO1VaHPWvw?si=EPkhd6Y-n0qvrakC",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 6,
+       "cytat" : ""
+      }
+    ]
+    }, 
+  {
     "game": "Little_Nightmares_III",
         "gamename": "Little Nightmares III",
     "image": "",

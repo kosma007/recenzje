@@ -165,7 +165,7 @@ const videoUrl =
 />
 {showPanel && (
   <div className="max-w-6xl bg-black/50 mx-auto rounded-lg p-6 text-white ">
-        <div className="w-full  lg:h-[300px] rounded-lg lg:flex">
+        <div className="w-full  lg:h-[350px] rounded-lg lg:flex">
             <div className="w-full lg:w-1/4 relative h-full flex justify-start max-lg:justify-center max-lg:items-center">
         <Image
             src={game.image || verticalCover}
