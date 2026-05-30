@@ -123,6 +123,22 @@ const videoUrl =
   firstMovie?.hls ||
   firstMovie?.webm ||
   null;
+
+useEffect(() => {
+  const video = videoRef.current;
+  if (!video) return;
+
+  const setTime = () => {
+    video.currentTime = 5;
+  };
+
+  video.addEventListener("loadedmetadata", setTime);
+
+  return () => {
+    video.removeEventListener("loadedmetadata", setTime);
+  };
+}, []);
+
   return (
   <div className="relative mx-auto min-h-[1250px] p-6 text-white ">
     <div className="fixed bottom-5 right-5 flex gap-2 z-50">
@@ -150,14 +166,9 @@ const videoUrl =
 </button>
 </div>
 <video
-  ref={(el) => {
-    if (!el) return;
-    el.onloadedmetadata = () => {
-      el.currentTime = 5;
-    };
-  }}
+  ref={videoRef}
   src={videoUrl}
-    muted={muted}
+  muted={muted}
   autoPlay
   loop
   playsInline
