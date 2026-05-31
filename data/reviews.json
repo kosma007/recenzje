@@ -1,5 +1,29 @@
 [  
   {
+    "game": "007_First_Light",
+        "gamename": "007 First Light",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/3768760/007_First_Light/",
+        "steamAppId": 3768760,
+    "reviews": [
+        {
+        "youtuber": "buBBazaur",
+          "videoLink": "https://www.youtube.com/watch?v=MUUzh3ZQc5E",
+        "image": "/youtubers/bubbazaur.png",
+        "score": 5.5,
+       "cytat" : ""
+      },
+      {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=Mw7II9v0Xhk",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 9,
+       "cytat" : ""
+      }
+    ]
+    },
+  {
     "game": "Dying_Light_2_Stay_HUMAN_Reloaded_Edition",
         "gamename": "Dying Light 2: Stay HUMAN Reloaded Edition",
     "image": "",
@@ -113,30 +137,6 @@
         "youtuber": "Do Diabla z Grami",
           "videoLink": "https://www.youtube.com/watch?v=4xFGC_4xT_k&list=PLB1d9Gjsa9VHpkI-bPCugORV1eS_u0La0",
         "image": "/youtubers/dodiablazygrami.png",
-        "score": 9,
-       "cytat" : ""
-      }
-    ]
-    },
-   {
-    "game": "007_First_Light",
-        "gamename": "007 First Light",
-    "image": "",
-    "shortDesc": "",
-    "shopLink": "https://store.steampowered.com/app/3768760/007_First_Light/",
-        "steamAppId": 3768760,
-    "reviews": [
-        {
-        "youtuber": "buBBazaur",
-          "videoLink": "https://www.youtube.com/watch?v=MUUzh3ZQc5E",
-        "image": "/youtubers/bubbazaur.png",
-        "score": 5.5,
-       "cytat" : ""
-      },
-      {
-        "youtuber": "Kolekcjoner CN",
-          "videoLink": "https://www.youtube.com/watch?v=Mw7II9v0Xhk",
-        "image": "/youtubers/kolekcjonercn.png",
         "score": 9,
        "cytat" : ""
       }
