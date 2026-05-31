@@ -132,6 +132,13 @@
         "image": "/youtubers/bubbazaur.png",
         "score": 5.5,
        "cytat" : ""
+      },
+      {
+        "youtuber": "Kolekcjoner CN",
+          "videoLink": "https://www.youtube.com/watch?v=Mw7II9v0Xhk",
+        "image": "/youtubers/kolekcjonercn.png",
+        "score": 9,
+       "cytat" : ""
       }
     ]
     },
