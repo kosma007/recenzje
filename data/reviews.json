@@ -72,6 +72,13 @@
         "image": "/youtubers/kolekcjonercn.png",
         "score": 9,
        "cytat" : ""
+      },
+       {
+        "youtuber": "Arkadikuss",
+          "videoLink": "https://www.youtube.com/watch?v=wc4PFJmVRmU",
+        "image": "/youtubers/arkadikuss.png",
+        "score": 7,
+       "cytat" : ""
       }
     ]
     },
