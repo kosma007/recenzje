@@ -1,5 +1,21 @@
 [  
- 
+ {
+    "game": "Gothic_1_Remake",
+        "gamename": "Gothic 1 Remake",
+    "image": "",
+    "shortDesc": "",
+    "shopLink": "https://store.steampowered.com/app/1297900/Gothic_1_Remake/",
+        "steamAppId": 1297900,
+    "reviews": [
+        {
+        "youtuber": "Gniazdo Nostalgii",
+          "videoLink": "https://www.youtube.com/watch?v=zzYMz1uZAs0",
+        "image": "/youtubers/gniazdonostalgii.png",
+        "score": 7,
+       "cytat" : ""
+      }
+    ]
+    }, 
   {
     "game": "Dying_Light_2_Stay_HUMAN_Reloaded_Edition",
         "gamename": "Dying Light 2: Stay HUMAN Reloaded Edition",

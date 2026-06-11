@@ -138,7 +138,11 @@ useEffect(() => {
     video.removeEventListener("loadedmetadata", setTime);
   };
 }, []);
-
+useEffect(() => {
+  if (videoRef.current) {
+    videoRef.current.volume = 0.1;
+  }
+}, []);
   return (
   <div className="relative mx-auto min-h-[1250px] p-6 text-white ">
     <div className="fixed bottom-5 right-5 flex gap-2 z-50">
